@@ -107,29 +107,46 @@ If you need any of those, the raw decompilation for every function is in
 If you have the device, two small experiments confirm the recovery:
 
 1. Open the COM port via the recovered `Serial::open()` and send the raw
-   bytes `"{0001010202}"`. Expected reply: `"{010102}"` — sets register 1
-   to 1 (descramble mode), checksum = (1 + 1) & 0xFF = 0x02.
+   ten bytes `"{00010102}"`. Expected reply: `"{010102}"` (eight bytes) —
+   this sets register 1 to value 1 (descramble mode); checksum
+   `(addr + val) & 0xFF = (1 + 1) & 0xFF = 0x02`.
 
 2. The original's "Write Successfull!" banner (note the typo) fires when
    the **first five** writes — regs 1, 2, 3, 4, 0=1 — all return 0. The
    final reg0=0 release pulse is fired but its return code is *ignored*.
    `apply_scramble()` mirrors this exactly.
 
-## Caveats — claims that are inferred, not directly proven
+## Caveats — claims that are directly proven vs inferred
 
-| Claim                                  | Source                               |
-|----------------------------------------|--------------------------------------|
-| 19200 / 8 / N / 1                      | `FUN_00419b56` `SetCommState` call   |
-| `{` `}` literal delimiters             | Raw bytes at `.data:0x437e30/38/40`  |
-| reg 1 = mode (descramble vs scramble)  | Inferred from `Opt_Scrambling` /     |
-|                                        | `Opt_Descrambling` radio bindings    |
-| reg 2 = standard (NTSC vs PAL)         | Inferred from `Opt_ntsc` / `Opt_Pal` |
-| reg 3 / 4 = seed hi/lo                 | Inferred from `Lb_random` edit field |
-| seed range 0..7679                     | GUI label `Lb_range` text "(0~7679)" |
-|                                        | — *no clamp* in code                 |
-| reg 0 = commit pulse                   | Inferred from 1000 ms wait after =1, |
-|                                        | followed by =0 with ignored return   |
+Codex's first review correctly flagged that the original Caveats column
+gave wishy-washy "inferred from UI" sources. This table now cites the
+specific function and offset in `recovered/decomp/` that grounds each
+claim, so a reviewer can re-verify without re-reading the binary.
 
-Nothing here is verified end-to-end against the device — until the device
-is connected, treat all register *meanings* as best-effort interpretation
-of UI bindings, not facts.
+| Claim                                | Verdict | Source                                                                |
+|--------------------------------------|---------|-----------------------------------------------------------------------|
+| Write packet is 10 bytes             | proved  | `0041930f_FUN_0041930f.c:72` `WriteFile(...,10,...)`                  |
+| Read packet is 8 bytes               | proved  | `0041972b_FUN_0041972b.c:64` `WriteFile(...,8,...)`                   |
+| Echo is 8 bytes                      | proved  | `0041930f:78`, `0041972b:70`                                          |
+| `chk = (addr + val) & 0xFF`          | proved  | `0041930f:51` `local_8d = param_1 + param_2`                          |
+| Read frame uses `(addr - 1)`, not `~addr` | proved | `0041972b:48` `local_8d = param_1 - 1`                              |
+| `{` and `}` literal delimiters       | proved  | Raw bytes at `.data:0x437e30/38/40` = `7b 30 30`, `7d`, `7b 66 66`    |
+| 19200 / 8 / N / 1                    | proved  | `00419b56_FUN_00419b56.c:187-191` `dcb.BaudRate = 0x4B00; dcb.ByteSize = 8; …` |
+| `Sleep(40)` between write/read       | proved  | `0041a31e_FUN_0041a31e.c:59-66` calls `write_reg(*, *, 0x28)`         |
+| `Sleep(1000)` for reg 0 commit       | proved  | `0041a31e:71` `write_reg(0, 1, 1000)`                                 |
+| Sixth write's return is ignored      | proved  | `0041a31e:73` `write_reg(0, 0, 0x28)` not added to `local_41`         |
+| reg 1 = mode (descramble vs scramble) | inferred | `0041a31e:55-58` reads `Opt_Descrambling` radio (`DAT_0043e398`) and writes that bit to reg 1 |
+| reg 2 = standard (NTSC vs PAL)       | inferred | `0041a31e:52-54` reads `Opt_Pal` radio (`DAT_0043e3d8`) and writes that bit to reg 2 |
+| reg 3, reg 4 = seed hi/lo            | inferred | `0041a31e:36-50` parses `Lb_random` edit text as int → ROUND/256 → reg 3, &0xFF → reg 4 |
+| seed range 0..7679                   | inferred | GUI label `Lb_range` text `"(0~7679)"` at `.data:0x437b08`. **No range check exists in code** |
+| reg 0 = commit pulse                 | inferred | `0041a31e:71-73` writes `1` (1000 ms wait) then `0` (return ignored) — strobe shape |
+
+"Inferred" rows above use *control name → register* mappings that hold
+in the PC binary but have not been observed on the device. A different
+firmware build could shuffle the meanings while leaving the wire format
+identical.
+
+The deeper "what does the *device* actually do with these bytes?"
+question is out of scope for this binary entirely — see
+[`DEVICE_OPERATION.md`](DEVICE_OPERATION.md), explicitly framed as
+hypotheses.

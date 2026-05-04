@@ -14,17 +14,21 @@ The whole COM-port surface of the binary fits in three functions:
 | `FUN_0041930f` | `write_reg(addr, val)`   | 10 + 8            |
 | `FUN_0041972b` | `read_reg(addr)`         |  8 + 8            |
 
-There are **no other commands**. No version query, no keep-alive, no boot
-probe, no firmware-update, no batched bulk transfer. The PC tool sees
-the device as a **5-cell register file**, full stop. Anything the
-firmware does internally (boot self-test, calibration, line-locked PLL,
-LFSR state machines) is invisible from this binary.
+**The PC tool issues no other commands.** No version query, no
+keep-alive, no boot probe, no firmware-update, no batched bulk
+transfer. From the PC's vantage point the device looks like a 5-cell
+register file. Whether the device *also* responds to undocumented
+commands that the official tool simply doesn't use is unknown without
+hands-on probing — that is a key open question (see "What to look for
+when the device arrives" below).
 
-This matters for "can we pull firmware over the existing link":
-**probably not**. An 8-bit address space caps the visible state at 256
-bytes; firmware doesn't fit. Pulling firmware will require either an
-undocumented command on the same UART (which would be a vendor secret —
-fishable but speculative) or physical access to the chip.
+This matters for "can we pull firmware over the existing link" only as
+a lower bound: the documented protocol exposes 8-bit addresses, so the
+visible state under the documented commands caps at 256 bytes — too
+small for firmware. Hidden vendor commands could change that picture
+entirely. Until the device is probed, treat firmware extraction over
+this UART as unproven either way; the high-confidence path is still
+physical access to the chip.
 
 ## The five registers, restated
 
@@ -80,20 +84,27 @@ the GUI's advertised range `0..7679`:
 
 `7680 = 256 × 30`, and the rounding makes `seed_high` reach 30 when the
 input is near the top. Combined with `seed_low` having 256 distinct
-values, this is **not** a 13-bit linear seed. The two registers behave
-as **two separate parameters**.
+values, this is — as encoded by the PC — **not** a 13-bit linear seed.
+The two registers most likely behave as **two separate parameters**
+(this is the simplest reading of the rounding choice; a contrived
+firmware could still reassemble them as a 13-bit value internally,
+though doing so would make the rounding a bug rather than a design
+choice).
 
 A plausible reading: the hardware has 30 (or 31) **scrambling sub-bands**
 or **line-group buckets**, indexed by reg 3, each with its own seed
-selected by reg 4. The PC's GUI presents this 2D parameter space to the
-user as a single integer for ergonomics, then de-projects on the way
-out. Whether the device actually uses a fixed lookup table indexed by
-reg 3, or whether it instantiates 30 LFSRs in parallel, can't be told
-from the PC code.
+selected by reg 4. On this reading the PC's GUI presents the 2D
+parameter space to the user as a single integer for ergonomics, then
+de-projects on the way out. Whether the device uses a fixed lookup
+table indexed by reg 3, instantiates 30 LFSRs in parallel, or does
+something else entirely, cannot be told from the PC code.
 
 The number `7680` itself is unremarkable in CVBS terms (it isn't a line
-count, sample count, or burst frequency). It's almost certainly a
-device-internal table dimension. Without the device we cannot tell more.
+count, sample count, or burst frequency). The most economical
+explanation is that it's a device-internal table dimension; alternative
+explanations (e.g. 7680 = 30 × 256 chosen because the GUI author wanted
+a 0..7679 single-knob control, with the *device* unaware of the split)
+cannot be ruled out without firmware in hand.
 
 ## Connect-time behaviour
 
@@ -104,10 +115,13 @@ device-internal table dimension. Without the device we cannot tell more.
 - WriteTotalTimeoutMultiplier 1, WriteTotalTimeoutConstant 10
 
 It does **not** send any handshake, ping, or identification command.
-That means:
+That implies:
 
-- The device must be passive — it sits silent on the line until the PC
-  initiates a `{00…` or `{ff…` exchange.
+- The PC tool *expects* the device to be passive — it sits silent on
+  the line until the PC initiates a `{00…` or `{ff…` exchange. Whether
+  the device is *actually* silent or merely-ignored at boot is
+  undetermined from the binary alone (item #3 in "What to look for"
+  below addresses this directly).
 - There is no PC-side check that "the thing on the other end is the
   expected device". A different device on the same port would silently
   receive register writes, possibly with damaging results.
@@ -128,9 +142,11 @@ Indirect evidence from the PC side:
   a low-end FPGA (Lattice MachXO, Anlogic AG10K, Gowin GW1N, Altera MAX
   series) or a configurable ASIC.
 
-If this is an FPGA, the configuration bitstream lives in a serial flash
-on the same board. That flash is the realistic target for "pull the
-firmware" — but it is reached by SPI or via JTAG, not via this UART.
+If this is an FPGA, the configuration bitstream typically lives in a
+serial flash on the same board, loaded by the FPGA at power-on via
+SPI. *If* that holds for this device, that flash is the realistic
+target for "pull the firmware" — reached by SPI or via JTAG, not via
+this UART. Confirming any of this needs eyes on the PCB.
 
 ## What to look for if/when the device arrives
 

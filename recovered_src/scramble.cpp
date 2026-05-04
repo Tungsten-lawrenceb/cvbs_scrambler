@@ -1,16 +1,27 @@
 // Reconstructed from FUN_0041a31e (write/scramble button)
 //                and FUN_0041a6ac (read button).
 #include "scramble.h"
+#include <cmath>
 
 SerialResult apply_scramble(Serial& s, const ScrambleParams& p) {
     uint8_t err = 0;
 
     // Original computes seed_high as ROUND(seed / 256.0), NOT (seed >> 8).
-    // For odd quotients the rounded value is one above the floor, so the
-    // device-side seed_high register can take values 0..30 even though
-    // (seed >> 8) over the GUI's 0..7679 range maxes at 29. We mirror the
-    // original quirk faithfully.
-    uint8_t seed_hi = uint8_t(int(double(p.seed) / 256.0 + 0.5));
+    // The decompilation shows two rounding paths gated on the SSE4.1
+    // feature bit:
+    //   * SSE4.1 available  -> roundsd <imm8>=4 -> round-to-nearest-even
+    //                          (a.k.a. "banker's rounding"; uses MXCSR)
+    //   * SSE4.1 unavailable -> C round() -> round-half-away-from-zero
+    // Modern x86 CPUs always have SSE4.1, so the banker's-rounding path
+    // is what runs in practice. We model that with std::lrint, which uses
+    // the current FE rounding mode (default = FE_TONEAREST = RNE).
+    // This differs from int(x + 0.5) at exactly-half-integer cases:
+    //   seed=128: lrint(0.5)=0   ;  +0.5 trick gives 1
+    //   seed=384: lrint(1.5)=2   ;  +0.5 trick gives 2
+    //   seed=640: lrint(2.5)=2   ;  +0.5 trick gives 3
+    // i.e. lrint matches the original on SSE4.1 hardware; the +0.5 trick
+    // accidentally matched the *fallback* path. (Codex review caught this.)
+    uint8_t seed_hi = uint8_t(std::lrint(double(p.seed) / 256.0));
     uint8_t seed_lo = uint8_t(p.seed & 0xFF);
 
     err += s.write_reg(1, p.descrambling ? 1 : 0, 40);

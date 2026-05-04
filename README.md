@@ -51,29 +51,34 @@ finding here is sourced from the binary alone.
 
 ## Findings, in 200 words
 
-The PC's view of the device is exactly **5 registers and 2 commands**.
-Everything the tool can do is one of:
+Everything below is sourced from the PC binary alone. Statements about
+the *device* are hypotheses; the PC binary cannot prove what the
+hardware on the other end does, only what the PC sends to it.
+
+**Proved — what the PC tool does.** The official tool's complete UART
+surface is three operations:
 
 - **Open / close** `\\.\COM<N>` at 19200 / 8 / N / 1 — no handshake.
 - **Write register** with `"{00<addr_hex2><val_hex2><chk_hex2>}"`
-  (10 B), expecting `"{<addr><val><chk>}"` (8 B) back. `chk = (addr+val)&0xFF`.
-- **Read register**  with `"{ff<addr_hex2><(addr-1)_hex2>}"` (8 B),
+  (10 B), expects `"{<addr><val><chk>}"` (8 B) back. `chk = (addr+val)&0xFF`.
+- **Read register** with `"{ff<addr_hex2><(addr-1)_hex2>}"` (8 B),
   same 8-B reply format.
 
-Five registers are touched: `0` (commit strobe — pulse 1 then 0),
-`1` (mode: scramble vs descramble), `2` (standard: NTSC vs PAL),
-`3` (seed_high), `4` (seed_low). The seed is **not** a single 13-bit
-value: `seed_high = round_half_to_even(seed/256)`, taking values 0..30,
-while `seed_low` is the byte truncation. The `7680 = 256 × 30`
-parameter space looks like a 30-band × 256-seed table inside the
-device.
+The only addresses the PC ever touches are `0..4`. The PC encodes the
+seed as `seed_high = round-half-to-even(seed / 256)` (values 0..30 over
+the GUI's advertised 0..7679 range) and `seed_low = seed & 0xFF`.
+Cross-references are tabulated in
+[`recovered_src/README.md`](recovered_src/README.md).
 
-There is no version query, no keep-alive, no boot probe, no firmware
-update path. The user-facing app is the entire surface. **Pulling
-firmware over the existing UART is unlikely to work** without
-undocumented vendor commands; the realistic target is the SPI flash on
-the PCB. See [`recovered_src/DEVICE_OPERATION.md`](recovered_src/DEVICE_OPERATION.md)
-for the long form.
+**Inferred — what this *probably* means for the device.** The shape of
+the protocol (5-register surface, no version query, no keep-alive,
+asymmetric "commit pulse" on reg 0, two-byte seed split) is consistent
+with a fixed-function part — most plausibly an FPGA or a configurable
+ASIC — driven from a small soft-config block. If that reading is
+correct, firmware would typically live in an SPI flash on the PCB
+rather than be reachable over this UART. Worked through (with explicit
+caveats per claim) in
+[`recovered_src/DEVICE_OPERATION.md`](recovered_src/DEVICE_OPERATION.md).
 
 ## Reproducing the analysis
 
