@@ -1,0 +1,813 @@
+!This program cannot be run in DOS mode.
+P`.data
+.rdata
+`@.pdata
+0@.xdata
+0@.bss
+.idata
+AUATUWVSH
+[^_]A\A]
+[^_]A\A]
+](Lc]0I
+ffffff
+ffffff
+ffffff
+ffffff
+](Lc]0I
+McC$M9
+McC$M9
+Lc] LcU
+Lc](LcU8M
+Lc]0LcU@M
+teLc]8H
+LcU(M)
+~&Lc] L
+~&Lc] L
+LcU(M)
+~&Lc] L
+LcU0M)
+LcU0M)
+	u_Lc]
+LcU(M)
+LcU0M)
+LcU0M)
+Lc] LcU0M)
+LcU(M)
+Lc] LcU0M)
+Lc] LcU0M
+LcU8M)
+LcU(M9
+LcE(M9
+LcE(M9
+LcU8M)
+E Lc] I
+.LcUHf
+-LcE@f
++LcM8f
++HcU0f
+uRLc]XH
+u3Lc]XH
+PLc]`H
+u3Lc]XH
+u#Lc]XH
+LcUHM)
+LcUPM)
+uLLc]XH
+H9Exu*H
+t5Lc] f
+t5Lc] f
+:Lc]PI
+lLc]PI
+LcU0M)
+LcU8M)
+Lc] LcU0M
+A( u.M
+AWAVAUATWVSH
+[^_A\A]A^A_]
+H[^A\A]
+[^_A\A]A^A_]
+T$HtHE
+T$HtHM
+ATUWVSH
+ [^_]A\
+t*H9A v$H
+[^_]A\A]A^
+[^_]A\A]A^
+[^_]A\A]A^A_
+8[^_A\
+ [^_]A\
+[^_A\A]A^A_]
+AWAVE1
+A\A]A^A_
+AUATSH
+AVAUATSH
+[A\A]A^
+AWAVAUATUWVSH
+[^_]A\A]A^A_
+([^A\A]
+[^A\A]A^
+^A\A]A^
+[^A\A]
+[^A\A]
+[^_A\A]
+[^_A\A]
+[^_A\A]
+[^_A\A]
+AWAVAUI
+[^_]A\A]A^A_
+AWAVAUM
+[^_]A\A]A^A_
+8[^_A\
+AUATSH
+AUATSH
+([^_A\
+<Kf9|J
+AUATUWVSH
+[^_]A\A]
+^_]A\A]
+AWAVAUI
+ATWVSH
+[^_A\A]A^A_]
+([^_]A\A]
+P<f9P8t
+H>f9H:u4
+ATWVSH
+[^_A\]
+f9D$.u
+P<f9P8tX
+H>f9H:tNE1
+P<f9P8tX
+H>f9H:tNE1
+[^_]A\
+[^_]A\
+[^_]A\
+AWAVAUATWVSH
+[^_A\A]A^A_]
+AVAUATUWVSH
+0[^_]A\A]A^
+ATUWVSH
+0[^_]A\
+0[^_]A\
+ATUWVSH
+P[^_]A\
+P[^_]A\
+UAWAVAUATWVSH
+[^_A\A]A^A_]
+ATUWVSH
+ [^_]A\
+ATWVSH
+([^_A\H
+tNHcA<H
+tTIcB<L
+t	HcA<
+tCHcA<H
+@' t	M
+tKIcA<L
+tSIcK<L
+AWAVAUATUWVSH
+H[^_]A\A]A^A_
+AWAVAUATUWVSH
+[^_]A\A]A^A_
+D$H+D$P
+\$\+|$@
+;D$Xu9
+AWAVAUATUWVSH
+([^_]A\A]A^A_
+AWAVAUATUWVSH
+L+D$(D
+8[^_]A\A]A^A_
+ATUWVSHcY
+[^_]A\
+[^_]A\
+AWAVAUATUWVSH
+8[^_]A\A]A^A_
+AUATVSH
+([^A\A]
+AWAVAUATUWVSH
+([^_]A\A]A^A_
+AUATWVSH
+ [^_A\A]
+ [^_A\A]
+AVAUATUWVSH
+ [^_]A\A]A^
+AUATUWVSH
+([^_]A\A]
+([^_]A\A]
+ATSHcA
+AVAUATUWVSH
+ [^_]A\A]A^
+D$(+D$,fH
+Shlwapi.dll
+PathMatchSpecExW
+UrlFixupW
++-.0123456789
+crypt32.dll
+CryptBinaryToStringA
+CryptBinaryToStringW
+CryptStringToBinaryA
+CryptStringToBinaryW
+Message
+RtlGetVersion
+COMCTL32.DLL
+shell32.dll
+Control_RunDLLW
+IEFrame
+MozillaWindowClass
+Chrome_WidgetWin_1
+RPCRT4.DLL
+UuidCreateSequential
+user32.dll
+SetProcessDPIAware
+IsProcessDPIAware
+Comctl32.dll
+LoadIconMetric
+VFBWindowClass
+Segoe UI
+Tahoma
+BUTTON
+Button
+OPTION
+Static
+BITMAPLABEL
+ICONLABEL
+BITMAPBUTTON
+ICONBUTTON
+TEXTBOX
+COMBOBOX
+ComboBoxEx32
+LISTBOX
+PROGRESSBAR
+MSCTLS_PROGRESS32
+msctls_progress32
+SysHeader32
+SysTreeView32
+SysListView32
+TOOLBAR
+TOOLBARWINDOW32
+ToolbarWindow32
+ReBarWindow32
+DATETIMEPICKER
+SYSDATETIMEPICK32
+SysDateTimePick32
+SysMonthCal32
+SysIPAddress32
+msctls_hotkey32
+SysAnimate32
+SysPager
+SysTabControl32
+msctls_statusbar32
+Scrollbar
+HSCROLLBAR
+VSCROLLBAR
+TRACKBAR
+MSCTLS_TRACKBAR32
+msctls_trackbar32
+UPDOWN
+MSCTLS_UPDOWN32
+msctls_updown32
+RICHEDIT
+RichEdit50W
+&Cancel
+GDIPLUS.DLL
+Unknown
+Generic error
+Invalid parameter
+Out of memory
+Object busy
+Insufficient buffer
+Not implemented
+Win 32 error
+Wrong state
+Aborted
+File not found
+Value overflow
+Access denied
+Unknown image format
+Font family not found
+Font style not found
+Not TrueType font
+Unsupported GdiPlus version
+GdiPlus not initialized
+Property not found
+Property not supported
+image/bmp
+GDI+ initialization failed - Error: 
+Microsoft YaHei
+BITMAP_
+AAAAA_APPICON
+RICHEDIT50W
+ListBox
+ComboBox
+SimSun
+bt656 mwindows
+CVBS Scrambling Assistant 1.0
+(0~7679)
+Lb_range
+Microsoft YaHei,9,0
+Opt_ntsc
+Opt_Pal
+Cvbs_in_standard
+Frm_ntsc_pal
+Module
+F_tx_rx
+Descrambling
+Opt_Descrambling
+Microsoft YaHei,9
+Scrambling
+Opt_Scrambling
+cmd_write
+cmd_read
+cuart_color
+cmd_open
+cbox_port
+com_select
+Lb_random
+Hi,Welcome To You !
+Lp_info
+@Microsoft YaHei,9
+\\.\COM
+Open Com
+ Error!
+Write Error!
+Write Successfull!
+Read Error!
+Read Successfull!
+0123456789ABCDEF
+Unknown error
+Argument domain error (DOMAIN)
+Overflow range error (OVERFLOW)
+Partial loss of significance (PLOSS)
+Total loss of significance (TLOSS)
+The result is too small to be represented (UNDERFLOW)
+Argument singularity (SIGN)
+_matherr(): %s in %s(%g, %g)  (retval=%g)
+Mingw-w64 runtime failure:
+Address %p has no image-section
+  VirtualQuery failed for %d bytes at address %p
+  VirtualProtect failed with code 0x%x
+  Unknown pseudo relocation protocol version %d.
+  Unknown pseudo relocation bit size %d.
+.pdata
+0123456789
+abcdef
+ABCDEF
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+InitCommonControlsEx
+SetWindowSubclass
+BitBlt
+CreateCompatibleBitmap
+CreateCompatibleDC
+CreateDCW
+CreateDIBSection
+CreateFontIndirectW
+CreatePen
+CreateSolidBrush
+DeleteDC
+DeleteObject
+Ellipse
+GetDeviceCaps
+GetObjectW
+GetStockObject
+GetTextExtentPoint32A
+LineTo
+MoveToEx
+Rectangle
+RoundRect
+SelectObject
+SetBkColor
+SetBkMode
+SetTextColor
+TextOutW
+GdipAddPathArc
+GdipAddPathLine
+GdipAddPathString
+GdipBitmapGetPixel
+GdipBitmapSetPixel
+GdipClosePathFigure
+GdipCreateBitmapFromHBITMAP
+GdipCreateBitmapFromStream
+GdipCreateFontFamilyFromName
+GdipCreateFromHDC
+GdipCreateHBITMAPFromBitmap
+GdipCreateHICONFromBitmap
+GdipCreateLineBrush
+GdipCreatePath
+GdipCreatePen1
+GdipCreateSolidFill
+GdipDeleteBrush
+GdipDeleteCustomLineCap
+GdipDeleteFontFamily
+GdipDeleteGraphics
+GdipDeletePath
+GdipDeletePen
+GdipDisposeImage
+GdipDrawEllipse
+GdipDrawImageRect
+GdipDrawPath
+GdipDrawPolygon
+GdipDrawRectangle
+GdipFillEllipse
+GdipFillPath
+GdipFillPolygon
+GdipFillRectangle
+GdipGetImageEncoders
+GdipGetImageEncodersSize
+GdipGetImageHeight
+GdipGetImageWidth
+GdipGetMatrixElements
+GdipGetPathGradientPointCount
+GdipGetPenFillType
+GdipSaveImageToFile
+GdipSetImageAttributesRemapTable
+GdipSetSmoothingMode
+GdipWindingModeOutline
+GdiplusShutdown
+GdiplusStartup
+CloseHandle
+CompareStringW
+CreateFileW
+DeleteCriticalSection
+EnterCriticalSection
+FindClose
+FindFirstFileW
+FindResourceW
+FreeLibrary
+GetCommState
+GetConsoleMode
+GetConsoleScreenBufferInfo
+GetCurrentDirectoryW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetFileAttributesW
+GetFileSize
+GetLargestConsoleWindowSize
+GetLastError
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetPrivateProfileStringW
+GetProcAddress
+GetProcessHeap
+GetStartupInfoA
+GetStdHandle
+GetSystemTimeAsFileTime
+GetTickCount
+GlobalAlloc
+GlobalFree
+GlobalLock
+GlobalUnlock
+HeapAlloc
+HeapFree
+InitializeCriticalSection
+LeaveCriticalSection
+LoadLibraryA
+LoadLibraryW
+LoadResource
+LockResource
+MoveFileW
+MulDiv
+MultiByteToWideChar
+PeekConsoleInputA
+PurgeComm
+QueryPerformanceCounter
+ReadConsoleInputA
+ReadFile
+RtlAddFunctionTable
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SetCommMask
+SetCommState
+SetCommTimeouts
+SetConsoleCtrlHandler
+SetConsoleMode
+SetConsoleWindowInfo
+SetUnhandledExceptionFilter
+SetupComm
+SizeofResource
+TerminateProcess
+TlsGetValue
+UnhandledExceptionFilter
+VirtualProtect
+VirtualQuery
+WideCharToMultiByte
+WriteConsoleInputA
+WriteFile
+WritePrivateProfileStringW
+__C_specific_handler
+__getmainargs
+__initenv
+__iob_func
+__lconv_init
+__set_app_type
+__setusermatherr
+_acmdln
+_amsg_exit
+_cexit
+_controlfp
+_errno
+_fmode
+_fpreset
+_i64toa
+_i64tow
+_initterm
+_onexit
+_snprintf
+_ui64toa
+_ui64tow
+_ultoa
+_ultow
+calloc
+fprintf
+fwrite
+islower
+isupper
+iswctype
+localeconv
+malloc
+mbstowcs
+memchr
+memcmp
+memcpy
+memset
+realloc
+setlocale
+signal
+strchr
+strlen
+strncmp
+strtoul
+tolower
+toupper
+towupper
+vfprintf
+wcscmp
+wcscspn
+wcslen
+wcsncmp
+wcsstr
+wcstod
+wcstombs
+CreateStreamOnHGlobal
+SysAllocString
+SysAllocStringLen
+SysFreeString
+SysStringLen
+SHGetPathFromIDListW
+PathRemoveBackslashW
+StrToIntW
+AdjustWindowRectEx
+BeginDeferWindowPos
+BeginPaint
+CallWindowProcW
+CreateIconIndirect
+CreateWindowExW
+DefWindowProcW
+DeferWindowPos
+DestroyAcceleratorTable
+DestroyCursor
+DestroyIcon
+DestroyWindow
+DispatchMessageW
+DrawIconEx
+DrawTextW
+EnableWindow
+EndDeferWindowPos
+EndPaint
+EnumThreadWindows
+FillRect
+FindWindowExW
+FindWindowW
+FlashWindowEx
+GetAncestor
+GetClassLongPtrW
+GetClassNameA
+GetClassNameW
+GetClientRect
+GetDesktopWindow
+GetDlgCtrlID
+GetDlgItem
+GetIconInfo
+GetMenu
+GetMessageW
+GetParent
+GetPropW
+GetScrollInfo
+GetSysColor
+GetSystemMetrics
+GetWindow
+GetWindowDC
+GetWindowLongPtrW
+GetWindowPlacement
+GetWindowRect
+GetWindowTextLengthW
+GetWindowThreadProcessId
+IntersectRect
+InvalidateRect
+IsDialogMessageW
+IsIconic
+IsWindow
+IsWindowEnabled
+IsWindowVisible
+IsZoomed
+LoadCursorW
+LoadImageA
+LoadImageW
+MapVirtualKeyA
+MapWindowPoints
+MessageBoxW
+OpenIcon
+PostMessageW
+PostQuitMessage
+RegisterClassExW
+ReleaseCapture
+ReleaseDC
+RemovePropW
+ScreenToClient
+SendMessageA
+SendMessageW
+SetClassLongPtrW
+SetCursor
+SetFocus
+SetForegroundWindow
+SetLayeredWindowAttributes
+SetParent
+SetPropW
+SetRect
+SetScrollInfo
+SetWindowLongPtrW
+SetWindowPlacement
+SetWindowPos
+ShowWindow
+SystemParametersInfoW
+TranslateAcceleratorW
+TranslateMDISysAccel
+TranslateMessage
+UnregisterClassW
+UpdateWindow
+VkKeyScanA
+GetFileVersionInfoSizeW
+GetFileVersionInfoW
+VerQueryValueW
+COMCTL32.dll
+GDI32.dll
+gdiplus.dll
+KERNEL32.dll
+msvcrt.dll
+ole32.dll
+OLEAUT32.dll
+SHELL32.dll
+SHLWAPI.dll
+USER32.dll
+VERSION.dll
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+   <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+      <assemblyIdentity version="1.0.0.167"
+         processorArchitecture="*"
+         name="cvbs_scramble_assistant"
+         type="win32"/>
+      <description></description>
+      <dependency>
+         <dependentAssembly>
+            <assemblyIdentity
+               type="win32"
+               name="Microsoft.Windows.Common-Controls"
+               version="6.0.0.0"
+               processorArchitecture="*"
+               publicKeyToken="6595b64144ccf1df"
+               language="*" />
+         </dependentAssembly>
+      </dependency>
+      <!-- Compatibility section -->
+      <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+         <application>
+            <!--The ID below indicates application support for Windows Vista -->
+            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/>
+            <!--The ID below indicates application support for Windows 7 -->
+            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+            <!--This Id value indicates the application supports Windows 8 functionality-->
+            <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
+            <!--This Id value indicates the application supports Windows 8.1 functionality-->
+            <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+         </application>
+       </compatibility>
+      <!-- Trustinfo section -->
+      <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+         <security>
+            <requestedPrivileges>
+               <requestedExecutionLevel
+                  level="asInvoker"
+                  uiAccess="false"/>
+               </requestedPrivileges>
+         </security>
+      </trustInfo>
+    <asmv3:application>
+         <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+            <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2</dpiAwareness>
+            <dpiAware>true</dpiAware>
+         </asmv3:windowsSettings>
+    </asmv3:application>
+</assembly>

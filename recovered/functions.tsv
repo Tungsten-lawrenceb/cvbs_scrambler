@@ -1,0 +1,506 @@
+addr	name	signature	params	locals	calling_conv	external	thunk	size
+00401000	FUN_00401000	undefined FUN_00401000(void)	0	0	__fastcall	false	false	1
+00401010	FUN_00401010	undefined8 FUN_00401010(void)	0	0	__fastcall	false	false	262
+00401130	FUN_00401130	undefined FUN_00401130(void)	0	1	__fastcall	false	false	73
+00401180	FUN_00401180	int FUN_00401180(undefined8 param_1, undefined * param_2, undefined8 param_3, undefined8 param_4)	4	3	__fastcall	false	false	775
+004014c0	entry	undefined entry(undefined8 param_1, undefined * param_2, undefined8 param_3, undefined8 param_4)	4	0	__fastcall	false	false	34
+004014f0	FUN_004014f0	undefined FUN_004014f0(undefined8 param_1, undefined * param_2, undefined8 param_3, undefined8 param_4)	4	0	__fastcall	false	false	34
+00401520	FUN_00401520	int FUN_00401520(_onexit_t param_1)	1	0	__fastcall	false	false	25
+00401540	FUN_00401540	undefined FUN_00401540(void)	0	0	__fastcall	false	false	12
+00401550	FUN_00401550	undefined FUN_00401550(void)	0	0	__fastcall	false	false	1
+00401580	FUN_00401580	undefined8 FUN_00401580(longlong param_1)	1	4	__fastcall	false	false	192
+00401640	FUN_00401640	undefined FUN_00401640(longlong param_1, undefined8 param_2)	2	4	__fastcall	false	false	369
+004017b1	FUN_004017b1	undefined FUN_004017b1(longlong param_1)	1	3	__fastcall	false	false	189
+00401adb	FUN_00401adb	undefined FUN_00401adb(void)	0	29	__fastcall	false	false	1171
+00401f6e	FUN_00401f6e	undefined FUN_00401f6e(PAINTSTRUCT * param_1)	1	1	__fastcall	false	false	651
+00402792	FUN_00402792	undefined1 FUN_00402792(undefined1 * param_1)	1	2	__fastcall	false	false	36
+0040386d	FUN_0040386d	undefined1 FUN_0040386d(longlong param_1)	1	6	__fastcall	false	false	181
+00403c4d	FUN_00403c4d	bool FUN_00403c4d(longlong param_1)	1	2	__fastcall	false	false	107
+00404152	FUN_00404152	undefined FUN_00404152(longlong param_1, COLORREF param_2)	2	5	__fastcall	false	false	696
+00405114	FUN_00405114	undefined FUN_00405114(longlong param_1, int param_2)	2	3	__fastcall	false	false	675
+004054a4	FUN_004054a4	undefined FUN_004054a4(longlong param_1, COLORREF param_2)	2	4	__fastcall	false	false	168
+00405896	FUN_00405896	undefined FUN_00405896(undefined8 * param_1, char param_2)	2	2	__fastcall	false	false	75
+004064aa	FUN_004064aa	undefined FUN_004064aa(longlong * param_1, int param_2)	2	5	__fastcall	false	false	329
+0040666d	FUN_0040666d	undefined FUN_0040666d(longlong * param_1, int param_2)	2	6	__fastcall	false	false	483
+004068d2	FUN_004068d2	undefined FUN_004068d2(longlong * param_1, char * param_2)	2	7	__fastcall	false	false	621
+00406b3f	FUN_00406b3f	undefined FUN_00406b3f(undefined8 * param_1)	1	1	__fastcall	false	false	32
+00406bb7	FUN_00406bb7	undefined8 FUN_00406bb7(undefined8 * param_1)	1	2	__fastcall	false	false	40
+00406bdf	FUN_00406bdf	undefined FUN_00406bdf(undefined8 * param_1, undefined8 param_2)	2	2	__fastcall	false	false	32
+00406d9e	FUN_00406d9e	undefined FUN_00406d9e(longlong param_1, undefined4 param_2)	2	2	__fastcall	false	false	31
+004074f2	FUN_004074f2	longlong FUN_004074f2(int * param_1)	1	3	__fastcall	false	false	103
+00407896	FUN_00407896	undefined FUN_00407896(longlong param_1, undefined8 param_2)	2	2	__fastcall	false	false	33
+004078dc	FUN_004078dc	undefined FUN_004078dc(undefined4 * param_1, undefined4 param_2)	2	2	__fastcall	false	false	30
+00408972	FUN_00408972	undefined FUN_00408972(int * param_1, longlong param_2)	2	3	__fastcall	false	false	74
+00408d9f	FUN_00408d9f	undefined FUN_00408d9f(int * param_1, undefined4 param_2)	2	5	__fastcall	false	false	162
+00408f03	FUN_00408f03	undefined FUN_00408f03(int * param_1, undefined4 param_2)	2	5	__fastcall	false	false	162
+00409024	FUN_00409024	undefined FUN_00409024(int * param_1, char * param_2)	2	4	__fastcall	false	false	100
+00409200	FUN_00409200	undefined FUN_00409200(int * param_1, longlong param_2, undefined8 param_3)	3	15	__fastcall	false	false	879
+004095b3	FUN_004095b3	undefined FUN_004095b3(undefined8 * param_1, longlong param_2)	2	2	__fastcall	false	false	40
+00409626	FUN_00409626	undefined FUN_00409626(undefined8 * param_1, char param_2)	2	2	__fastcall	false	false	80
+00409f1e	FUN_00409f1e	bool FUN_00409f1e(int * param_1)	1	3	__fastcall	false	false	94
+00409f7c	FUN_00409f7c	undefined FUN_00409f7c(int * param_1, char param_2)	2	23	__fastcall	false	false	2385
+0040a8cd	FUN_0040a8cd	bool FUN_0040a8cd(int * param_1)	1	3	__fastcall	false	false	94
+0040a92b	FUN_0040a92b	undefined FUN_0040a92b(int * param_1, char param_2)	2	23	__fastcall	false	false	2363
+0040b2ac	FUN_0040b2ac	undefined FUN_0040b2ac(int * param_1, longlong param_2)	2	3	__fastcall	false	false	74
+0040b68e	FUN_0040b68e	undefined FUN_0040b68e(int * param_1, undefined4 param_2)	2	5	__fastcall	false	false	162
+0040b7f2	FUN_0040b7f2	undefined FUN_0040b7f2(int * param_1, undefined4 param_2)	2	5	__fastcall	false	false	162
+0040bbfe	FUN_0040bbfe	undefined FUN_0040bbfe(int * param_1, char * param_2)	2	4	__fastcall	false	false	100
+0040bc62	FUN_0040bc62	undefined FUN_0040bc62(int * param_1, longlong param_2, undefined8 param_3, uint param_4)	4	31	__fastcall	false	false	1693
+0040c2ff	FUN_0040c2ff	uint * FUN_0040c2ff(uint * param_1, undefined8 * param_2)	2	3	__fastcall	false	false	68
+0040c343	FUN_0040c343	undefined FUN_0040c343(undefined8 * param_1, longlong param_2)	2	2	__fastcall	false	false	40
+0040c797	FUN_0040c797	undefined FUN_0040c797(int * param_1, uint param_2)	2	3	__fastcall	false	false	82
+0040cc3d	FUN_0040cc3d	undefined FUN_0040cc3d(int * param_1, longlong param_2, undefined8 param_3)	3	32	__fastcall	false	false	7039
+0040e853	FUN_0040e853	int FUN_0040e853(undefined8 * param_1, longlong param_2, longlong param_3)	3	5	__fastcall	false	false	121
+0040e945	FUN_0040e945	undefined FUN_0040e945(undefined8 * param_1, int param_2)	2	2	__fastcall	false	false	61
+0040ed5d	FUN_0040ed5d	ulonglong FUN_0040ed5d(undefined8 * param_1)	1	2	__fastcall	false	false	60
+0040ed99	FUN_0040ed99	undefined FUN_0040ed99(undefined8 * param_1, int param_2)	2	2	__fastcall	false	false	50
+0040f0ee	FUN_0040f0ee	uint * FUN_0040f0ee(uint * param_1, undefined8 * param_2)	2	3	__fastcall	false	false	68
+0040f132	FUN_0040f132	undefined FUN_0040f132(undefined8 * param_1, longlong param_2)	2	2	__fastcall	false	false	40
+0040f47c	FUN_0040f47c	undefined FUN_0040f47c(undefined8 * param_1, int param_2)	2	2	__fastcall	false	false	50
+0040fa6a	FUN_0040fa6a	undefined8 FUN_0040fa6a(char * param_1)	1	39	__fastcall	false	false	1656
+004100e2	FUN_004100e2	uint FUN_004100e2(uint param_1, uint param_2)	2	4	__fastcall	false	false	132
+00410166	FUN_00410166	uint FUN_00410166(uint param_1, uint param_2)	2	8	__fastcall	false	false	204
+004106f3	FUN_004106f3	HWND FUN_004106f3(undefined8 * param_1, int param_2, HWND param_3, HWND param_4, int param_5, int param_6)	6	16	__fastcall	false	false	768
+004109f3	FUN_004109f3	undefined FUN_004109f3(HWND param_1)	1	29	__fastcall	false	false	2533
+004113d8	FUN_004113d8	undefined FUN_004113d8(longlong param_1, int param_2, int param_3, int param_4, int param_5, int * param_6, int * param_7, int * param_8, int * param_9)	9	12	__fastcall	false	false	1984
+00411b98	FUN_00411b98	undefined4 FUN_00411b98(HWND param_1)	1	2	__fastcall	false	false	87
+00411bef	FUN_00411bef	undefined FUN_00411bef(HWND param_1, longlong param_2)	2	2	__fastcall	false	false	97
+004120dd	FUN_004120dd	HWND FUN_004120dd(undefined1 * param_1, HWND param_2, char param_3, LPARAM param_4)	4	451	__fastcall	false	false	25285
+0041930f	FUN_0041930f	undefined1 FUN_0041930f(byte param_1, byte param_2, DWORD param_3)	3	29	__fastcall	false	false	1052
+0041972b	FUN_0041972b	undefined1 FUN_0041972b(byte param_1, char * param_2)	2	24	__fastcall	false	false	901
+00419ab0	FUN_00419ab0	char FUN_00419ab0(byte param_1)	1	2	__fastcall	false	false	160
+00419b56	FUN_00419b56	undefined FUN_00419b56(void)	0	45	__fastcall	false	false	1992
+0041a31e	FUN_0041a31e	undefined FUN_0041a31e(void)	0	19	__fastcall	false	false	910
+0041a6ac	FUN_0041a6ac	undefined FUN_0041a6ac(void)	0	22	__fastcall	false	false	893
+0041aa2e	FUN_0041aa2e	undefined FUN_0041aa2e(void)	0	13	__fastcall	false	false	435
+0041abe1	FUN_0041abe1	undefined FUN_0041abe1(void)	0	7	__fastcall	false	false	378
+0041ad5b	FUN_0041ad5b	undefined FUN_0041ad5b(void)	0	7	__fastcall	false	false	149
+0041adf0	FUN_0041adf0	undefined FUN_0041adf0(void)	0	7	__fastcall	false	false	149
+0041ae85	FUN_0041ae85	undefined FUN_0041ae85(void)	0	7	__fastcall	false	false	149
+0041af1a	FUN_0041af1a	undefined FUN_0041af1a(void)	0	7	__fastcall	false	false	149
+0041afaf	FUN_0041afaf	undefined4 FUN_0041afaf(void)	0	2	__fastcall	false	false	34
+0041afd1	FUN_0041afd1	undefined FUN_0041afd1(void)	0	1	__fastcall	false	false	17
+0041afe2	FUN_0041afe2	undefined4 FUN_0041afe2(void)	0	2	__fastcall	false	false	34
+0041b004	FUN_0041b004	undefined4 FUN_0041b004(void)	0	6	__fastcall	false	false	160
+0041b0a4	FUN_0041b0a4	undefined FUN_0041b0a4(void)	0	0	__fastcall	false	false	28
+0041b0c0	FUN_0041b0c0	undefined4 FUN_0041b0c0(undefined4 param_1, undefined8 param_2)	2	3	__fastcall	false	false	72
+0041b108	FUN_0041b108	undefined FUN_0041b108(uint * param_1)	1	1	__fastcall	false	false	102
+0041b16e	FUN_0041b16e	undefined FUN_0041b16e(uint * param_1, wchar_t * param_2)	2	2	__fastcall	false	false	125
+0041b1eb	FUN_0041b1eb	undefined FUN_0041b1eb(uint * param_1, char * param_2, UINT param_3)	3	3	__fastcall	false	false	151
+0041b282	FUN_0041b282	undefined FUN_0041b282(uint * param_1, longlong param_2)	2	2	__fastcall	false	false	146
+0041b3ab	FUN_0041b3ab	undefined FUN_0041b3ab(longlong param_1)	1	1	__fastcall	false	false	56
+0041b3e3	FUN_0041b3e3	undefined8 FUN_0041b3e3(longlong param_1)	1	2	__fastcall	false	false	41
+0041b40c	FUN_0041b40c	undefined8 FUN_0041b40c(longlong param_1)	1	2	__fastcall	false	false	41
+0041b435	FUN_0041b435	uint FUN_0041b435(longlong param_1)	1	2	__fastcall	false	false	60
+0041b471	FUN_0041b471	undefined8 FUN_0041b471(longlong param_1)	1	2	__fastcall	false	false	41
+0041b49a	FUN_0041b49a	undefined8 FUN_0041b49a(longlong param_1)	1	2	__fastcall	false	false	41
+0041b4c3	FUN_0041b4c3	undefined FUN_0041b4c3(longlong param_1)	1	12	__fastcall	false	false	509
+0041b6c0	FUN_0041b6c0	undefined FUN_0041b6c0(uint * param_1, char * param_2)	2	2	__fastcall	false	false	53
+0041b6f5	FUN_0041b6f5	undefined FUN_0041b6f5(uint * param_1, longlong * param_2)	2	2	__fastcall	false	false	61
+0041b732	FUN_0041b732	undefined FUN_0041b732(uint * param_1, longlong param_2)	2	2	__fastcall	false	false	77
+0041b77f	FUN_0041b77f	undefined FUN_0041b77f(uint * param_1, uint param_2, char param_3)	3	5	__fastcall	false	false	303
+0041b8ae	FUN_0041b8ae	bool FUN_0041b8ae(uint * param_1, void * param_2, uint param_3)	3	4	__fastcall	false	false	370
+0041ba20	FUN_0041ba20	undefined FUN_0041ba20(uint * param_1, longlong param_2)	2	3	__fastcall	false	false	71
+0041bac0	FUN_0041bac0	undefined FUN_0041bac0(uint * param_1, wchar_t * param_2)	2	3	__fastcall	false	false	89
+0041bb19	FUN_0041bb19	undefined FUN_0041bb19(uint * param_1, char * param_2, UINT param_3)	3	8	__fastcall	false	false	402
+0041bcd0	FUN_0041bcd0	undefined FUN_0041bcd0(longlong param_1)	1	1	__fastcall	false	false	93
+0041c412	FUN_0041c412	uint * FUN_0041c412(uint * param_1, longlong param_2, longlong param_3)	3	4	__fastcall	false	false	92
+0041c46e	FUN_0041c46e	uint * FUN_0041c46e(uint * param_1, longlong param_2, size_t param_3)	3	4	__fastcall	false	false	75
+0041dc34	FUN_0041dc34	undefined4 FUN_0041dc34(void)	0	6	__fastcall	false	false	361
+0041e597	FUN_0041e597	uint * FUN_0041e597(uint * param_1, HWND param_2)	2	7	__fastcall	false	false	222
+0041e681	FUN_0041e681	bool FUN_0041e681(HWND param_1, longlong param_2)	2	3	__fastcall	false	false	82
+0041e706	FUN_0041e706	ulonglong FUN_0041e706(HWND param_1)	1	2	__fastcall	false	false	51
+0041e793	FUN_0041e793	ulonglong FUN_0041e793(HWND param_1, uint param_2)	2	4	__fastcall	false	false	90
+0041e84a	FUN_0041e84a	ulonglong FUN_0041e84a(HWND param_1, uint param_2)	2	4	__fastcall	false	false	93
+0041e8a7	FUN_0041e8a7	undefined FUN_0041e8a7(HWND param_1, HWND param_2)	2	16	__fastcall	false	false	569
+0041ed87	FUN_0041ed87	undefined FUN_0041ed87(HWND param_1)	1	1	__fastcall	false	false	46
+0041efa3	FUN_0041efa3	bool FUN_0041efa3(void)	0	3	__fastcall	false	false	145
+0041f07e	FUN_0041f07e	float FUN_0041f07e(float param_1)	1	3	__fastcall	false	false	181
+0041f133	FUN_0041f133	float FUN_0041f133(float param_1)	1	3	__fastcall	false	false	181
+0041f1e8	FUN_0041f1e8	float FUN_0041f1e8(float param_1)	1	3	__fastcall	false	false	173
+0041f295	FUN_0041f295	float FUN_0041f295(float param_1)	1	3	__fastcall	false	false	173
+0041f672	FUN_0041f672	HFONT FUN_0041f672(longlong param_1, int param_2, int param_3, LONG param_4, BYTE param_5, BYTE param_6, BYTE param_7, BYTE param_8)	8	20	__fastcall	false	false	465
+0041ff66	FUN_0041ff66	undefined FUN_0041ff66(void)	0	1	__fastcall	false	false	17
+004201b0	FUN_004201b0	ATOM FUN_004201b0(longlong param_1, HINSTANCE param_2, WNDPROC param_3)	3	32	__fastcall	false	false	1193
+00421159	FUN_00421159	undefined FUN_00421159(undefined8 * param_1, longlong param_2)	2	4	__fastcall	false	false	837
+0042149e	FUN_0042149e	undefined FUN_0042149e(longlong param_1)	1	1	__fastcall	false	false	200
+00421566	FUN_00421566	undefined FUN_00421566(longlong param_1, float param_2)	2	3	__fastcall	false	false	475
+00421741	FUN_00421741	longlong FUN_00421741(longlong * param_1, HWND param_2, longlong param_3, WNDPROC param_4, int param_5, int param_6, int param_7, int param_8, DWORD param_9, DWORD param_10)	10	25	__fastcall	false	false	1184
+00421be1	FUN_00421be1	undefined FUN_00421be1(undefined8 * param_1, HWND param_2, HWND param_3)	3	3	__fastcall	false	false	59
+00421c1c	FUN_00421c1c	undefined8 FUN_00421c1c(undefined8 * param_1)	1	2	__fastcall	false	false	40
+00421c7d	FUN_00421c7d	ULONG_PTR FUN_00421c7d(longlong * param_1)	1	2	__fastcall	false	false	65
+00421cbe	FUN_00421cbe	undefined FUN_00421cbe(longlong * param_1, LONG_PTR param_2)	2	2	__fastcall	false	false	89
+00421d17	FUN_00421d17	undefined FUN_00421d17(undefined8 * param_1, LPARAM param_2)	2	2	__fastcall	false	false	51
+00421d4a	FUN_00421d4a	undefined FUN_00421d4a(undefined8 * param_1, LPARAM param_2)	2	2	__fastcall	false	false	48
+00421f68	FUN_00421f68	undefined8 * FUN_00421f68(undefined8 * param_1, undefined8 * param_2)	2	4	__fastcall	false	false	616
+004221fc	FUN_004221fc	bool FUN_004221fc(longlong param_1, HWND param_2, HWND param_3, int param_4, int param_5, int param_6, int param_7, UINT param_8)	8	9	__fastcall	false	false	595
+0042244f	FUN_0042244f	HFONT FUN_0042244f(longlong param_1, longlong param_2, int param_3, LONG param_4, BYTE param_5, BYTE param_6, BYTE param_7, BYTE param_8)	8	21	__fastcall	false	false	531
+00422662	FUN_00422662	HWND FUN_00422662(undefined8 * param_1, longlong param_2, HWND param_3, HMENU param_4, longlong param_5, int param_6, int param_7, int param_8, int param_9, uint param_10, uint param_11, LPVOID param_12, SUBCLASSPROC param_13, UINT_PTR param_14, DWORD_PTR param_15)	15	56	__fastcall	false	false	9822
+00424cc0	FUN_00424cc0	undefined8 FUN_00424cc0(longlong param_1)	1	2	__fastcall	false	false	41
+00424e7a	FUN_00424e7a	LONG_PTR FUN_00424e7a(HWND param_1)	1	2	__fastcall	false	false	47
+0042515e	FUN_0042515e	undefined FUN_0042515e(uint * param_1)	1	1	__fastcall	false	false	330
+004254cc	FUN_004254cc	undefined FUN_004254cc(longlong param_1)	1	1	__fastcall	false	false	153
+0042794c	FUN_0042794c	undefined FUN_0042794c(undefined8 * param_1)	1	1	__fastcall	false	false	711
+00428090	FUN_00428090	undefined FUN_00428090(longlong param_1)	1	1	__fastcall	false	false	125
+0042810d	FUN_0042810d	undefined FUN_0042810d(LPPAINTSTRUCT param_1, HWND param_2, COLORREF param_3, int param_4, int param_5, int param_6, int param_7, int param_8, int param_9)	9	18	__fastcall	false	false	1885
+0042886a	FUN_0042886a	undefined FUN_0042886a(longlong param_1)	1	7	__fastcall	false	false	139
+004288f5	FUN_004288f5	undefined FUN_004288f5(longlong param_1, COLORREF param_2)	2	11	__fastcall	false	false	259
+00428a75	FUN_00428a75	undefined FUN_00428a75(longlong param_1, longlong param_2, int param_3, char param_4, BYTE param_5, BYTE param_6, BYTE param_7)	7	13	__fastcall	false	false	337
+00428d1e	FUN_00428d1e	int FUN_00428d1e(longlong param_1, int param_2, int param_3, int param_4, int param_5, longlong param_6, UINT param_7)	7	9	__fastcall	false	false	659
+00428fb1	FUN_00428fb1	undefined FUN_00428fb1(longlong param_1, COLORREF param_2, COLORREF param_3)	3	3	__fastcall	false	false	133
+00429036	FUN_00429036	undefined FUN_00429036(longlong param_1, float param_2, undefined4 param_3)	3	3	__fastcall	false	false	143
+004290c5	FUN_004290c5	undefined FUN_004290c5(longlong param_1, int param_2)	2	2	__fastcall	false	false	93
+00429122	FUN_00429122	undefined FUN_00429122(longlong param_1, int param_2, int param_3, int param_4, int param_5, undefined4 param_6, undefined4 param_7, undefined8 param_8)	8	8	__fastcall	false	false	313
+0042925b	FUN_0042925b	undefined FUN_0042925b(longlong param_1, float param_2, float param_3, float param_4, float param_5)	5	7	__fastcall	false	false	383
+004293da	FUN_004293da	undefined FUN_004293da(longlong param_1, float param_2, float param_3, float param_4, float param_5, float param_6, float param_7, uint param_8)	8	7	__fastcall	false	false	790
+004296f0	FUN_004296f0	undefined FUN_004296f0(longlong param_1, float param_2, float param_3, float param_4, float param_5)	5	7	__fastcall	false	false	383
+0042986f	FUN_0042986f	undefined FUN_0042986f(longlong param_1, longlong * param_2, undefined4 param_3)	3	22	__fastcall	false	false	530
+0042a186	FUN_0042a186	undefined FUN_0042a186(longlong param_1, undefined4 param_2)	2	2	__fastcall	false	false	90
+0042a1e0	FUN_0042a1e0	undefined FUN_0042a1e0(longlong param_1, float param_2, float param_3, float param_4, float param_5)	5	5	__fastcall	false	false	213
+0042a2b5	FUN_0042a2b5	undefined FUN_0042a2b5(longlong param_1, float param_2, float param_3, float param_4, float param_5, undefined8 param_6, undefined8 param_7)	7	7	__fastcall	false	false	231
+0042a39c	FUN_0042a39c	undefined FUN_0042a39c(longlong param_1)	1	1	__fastcall	false	false	142
+0042a446	FUN_0042a446	undefined FUN_0042a446(void)	0	0	__fastcall	false	false	28
+0042a490	WriteFile	BOOL WriteFile(HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped)	5	0	__stdcall	false	true	6
+0042a498	WideCharToMultiByte	int WideCharToMultiByte(UINT CodePage, DWORD dwFlags, LPCWSTR lpWideCharStr, int cchWideChar, LPSTR lpMultiByteStr, int cbMultiByte, LPCSTR lpDefaultChar, LPBOOL lpUsedDefaultChar)	8	0	__stdcall	false	true	6
+0042a4b0	SetupComm	BOOL SetupComm(HANDLE hFile, DWORD dwInQueue, DWORD dwOutQueue)	3	0	__stdcall	false	true	6
+0042a4c0	SetCommTimeouts	BOOL SetCommTimeouts(HANDLE hFile, LPCOMMTIMEOUTS lpCommTimeouts)	2	0	__stdcall	false	true	6
+0042a4c8	SetCommState	BOOL SetCommState(HANDLE hFile, LPDCB lpDCB)	2	0	__stdcall	false	true	6
+0042a4d0	SetCommMask	BOOL SetCommMask(HANDLE hFile, DWORD dwEvtMask)	2	0	__stdcall	false	true	6
+0042a4d8	ReadFile	BOOL ReadFile(HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped)	5	0	__stdcall	false	true	6
+0042a4e0	PurgeComm	BOOL PurgeComm(HANDLE hFile, DWORD dwFlags)	2	0	__stdcall	false	true	6
+0042a4e8	MultiByteToWideChar	int MultiByteToWideChar(UINT CodePage, DWORD dwFlags, LPCSTR lpMultiByteStr, int cbMultiByte, LPWSTR lpWideCharStr, int cchWideChar)	6	0	__stdcall	false	true	6
+0042a4f0	MulDiv	int MulDiv(int nNumber, int nNumerator, int nDenominator)	3	0	__stdcall	false	true	6
+0042a510	LoadLibraryW	HMODULE LoadLibraryW(LPCWSTR lpLibFileName)	1	0	__stdcall	false	true	6
+0042a558	GetProcAddress	FARPROC GetProcAddress(HMODULE hModule, LPCSTR lpProcName)	2	0	__stdcall	false	true	6
+0042a568	GetModuleHandleW	HMODULE GetModuleHandleW(LPCWSTR lpModuleName)	1	0	__stdcall	false	true	6
+0042a570	GetModuleFileNameW	DWORD GetModuleFileNameW(HMODULE hModule, LPWSTR lpFilename, DWORD nSize)	3	0	__stdcall	false	true	6
+0042a598	GetCommState	BOOL GetCommState(HANDLE hFile, LPDCB lpDCB)	2	0	__stdcall	false	true	6
+0042a5a0	FreeLibrary	BOOL FreeLibrary(HMODULE hLibModule)	1	0	__stdcall	false	true	6
+0042a5c0	CreateFileW	HANDLE CreateFileW(LPCWSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile)	7	0	__stdcall	false	true	6
+0042a5d0	CloseHandle	BOOL CloseHandle(HANDLE hObject)	1	0	__stdcall	false	true	6
+0042a5e8	SetTextColor	COLORREF SetTextColor(HDC hdc, COLORREF color)	2	0	__stdcall	false	true	6
+0042a5f0	SetBkMode	int SetBkMode(HDC hdc, int mode)	2	0	__stdcall	false	true	6
+0042a5f8	SetBkColor	COLORREF SetBkColor(HDC hdc, COLORREF color)	2	0	__stdcall	false	true	6
+0042a600	SelectObject	HGDIOBJ SelectObject(HDC hdc, HGDIOBJ h)	2	0	__stdcall	false	true	6
+0042a640	GetDeviceCaps	int GetDeviceCaps(HDC hdc, int index)	2	0	__stdcall	false	true	6
+0042a650	DeleteObject	BOOL DeleteObject(HGDIOBJ ho)	1	0	__stdcall	false	true	6
+0042a658	DeleteDC	BOOL DeleteDC(HDC hdc)	1	0	__stdcall	false	true	6
+0042a660	CreateSolidBrush	HBRUSH CreateSolidBrush(COLORREF color)	1	0	__stdcall	false	true	6
+0042a670	CreateFontIndirectW	HFONT CreateFontIndirectW(LOGFONTW * lplf)	1	0	__stdcall	false	true	6
+0042a688	CreateCompatibleDC	HDC CreateCompatibleDC(HDC hdc)	1	0	__stdcall	false	true	6
+0042a690	CreateCompatibleBitmap	HBITMAP CreateCompatibleBitmap(HDC hdc, int cx, int cy)	3	0	__stdcall	false	true	6
+0042a698	BitBlt	BOOL BitBlt(HDC hdc, int x, int y, int cx, int cy, HDC hdcSrc, int x1, int y1, DWORD rop)	9	0	__stdcall	false	true	6
+0042a6a0	UpdateWindow	BOOL UpdateWindow(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a6a8	UnregisterClassW	BOOL UnregisterClassW(LPCWSTR lpClassName, HINSTANCE hInstance)	2	0	__stdcall	false	true	6
+0042a6b0	TranslateMessage	BOOL TranslateMessage(MSG * lpMsg)	1	0	__stdcall	false	true	6
+0042a6b8	TranslateMDISysAccel	BOOL TranslateMDISysAccel(HWND hWndClient, LPMSG lpMsg)	2	0	__stdcall	false	true	6
+0042a6c0	TranslateAcceleratorW	int TranslateAcceleratorW(HWND hWnd, HACCEL hAccTable, LPMSG lpMsg)	3	0	__stdcall	false	true	6
+0042a6c8	SystemParametersInfoW	BOOL SystemParametersInfoW(UINT uiAction, UINT uiParam, PVOID pvParam, UINT fWinIni)	4	0	__stdcall	false	true	6
+0042a6d0	ShowWindow	BOOL ShowWindow(HWND hWnd, int nCmdShow)	2	0	__stdcall	false	true	6
+0042a6d8	SetWindowPos	BOOL SetWindowPos(HWND hWnd, HWND hWndInsertAfter, int X, int Y, int cx, int cy, UINT uFlags)	7	0	__stdcall	false	true	6
+0042a6e8	SetWindowLongPtrW	LONG_PTR SetWindowLongPtrW(HWND hWnd, int nIndex, LONG_PTR dwNewLong)	3	0	__stdcall	false	true	6
+0042a6f0	SetScrollInfo	int SetScrollInfo(HWND hwnd, int nBar, LPCSCROLLINFO lpsi, BOOL redraw)	4	0	__stdcall	false	true	6
+0042a6f8	SetRect	BOOL SetRect(LPRECT lprc, int xLeft, int yTop, int xRight, int yBottom)	5	0	__stdcall	false	true	6
+0042a700	SetPropW	BOOL SetPropW(HWND hWnd, LPCWSTR lpString, HANDLE hData)	3	0	__stdcall	false	true	6
+0042a710	SetLayeredWindowAttributes	BOOL SetLayeredWindowAttributes(HWND hwnd, COLORREF crKey, BYTE bAlpha, DWORD dwFlags)	4	0	__stdcall	false	true	6
+0042a718	SetForegroundWindow	BOOL SetForegroundWindow(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a720	SetFocus	HWND SetFocus(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a728	SetCursor	HCURSOR SetCursor(HCURSOR hCursor)	1	0	__stdcall	false	true	6
+0042a730	SetClassLongPtrW	ULONG_PTR SetClassLongPtrW(HWND hWnd, int nIndex, LONG_PTR dwNewLong)	3	0	__stdcall	false	true	6
+0042a738	SendMessageW	LRESULT SendMessageW(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)	4	0	__stdcall	false	true	6
+0042a740	SendMessageA	LRESULT SendMessageA(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)	4	0	__stdcall	false	true	6
+0042a748	ScreenToClient	BOOL ScreenToClient(HWND hWnd, LPPOINT lpPoint)	2	0	__stdcall	false	true	6
+0042a758	ReleaseDC	int ReleaseDC(HWND hWnd, HDC hDC)	2	0	__stdcall	false	true	6
+0042a768	RegisterClassExW	ATOM RegisterClassExW(WNDCLASSEXW * param_1)	1	0	__stdcall	false	true	6
+0042a770	PostQuitMessage	void PostQuitMessage(int nExitCode)	1	0	__stdcall	false	true	6
+0042a778	PostMessageW	BOOL PostMessageW(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)	4	0	__stdcall	false	true	6
+0042a780	OpenIcon	BOOL OpenIcon(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a790	MapWindowPoints	int MapWindowPoints(HWND hWndFrom, HWND hWndTo, LPPOINT lpPoints, UINT cPoints)	4	0	__stdcall	false	true	6
+0042a798	LoadImageW	HANDLE LoadImageW(HINSTANCE hInst, LPCWSTR name, UINT type, int cx, int cy, UINT fuLoad)	6	0	__stdcall	false	true	6
+0042a7a8	LoadCursorW	HCURSOR LoadCursorW(HINSTANCE hInstance, LPCWSTR lpCursorName)	2	0	__stdcall	false	true	6
+0042a7b8	IsWindowVisible	BOOL IsWindowVisible(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a7c0	IsWindowEnabled	BOOL IsWindowEnabled(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a7c8	IsWindow	BOOL IsWindow(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a7d8	IsDialogMessageW	BOOL IsDialogMessageW(HWND hDlg, LPMSG lpMsg)	2	0	__stdcall	false	true	6
+0042a7e0	InvalidateRect	BOOL InvalidateRect(HWND hWnd, RECT * lpRect, BOOL bErase)	3	0	__stdcall	false	true	6
+0042a7e8	IntersectRect	BOOL IntersectRect(LPRECT lprcDst, RECT * lprcSrc1, RECT * lprcSrc2)	3	0	__stdcall	false	true	6
+0042a800	GetWindowRect	BOOL GetWindowRect(HWND hWnd, LPRECT lpRect)	2	0	__stdcall	false	true	6
+0042a810	GetWindowLongPtrW	LONG_PTR GetWindowLongPtrW(HWND hWnd, int nIndex)	2	0	__stdcall	false	true	6
+0042a818	GetWindowDC	HDC GetWindowDC(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a820	GetWindow	HWND GetWindow(HWND hWnd, UINT uCmd)	2	0	__stdcall	false	true	6
+0042a828	GetSystemMetrics	int GetSystemMetrics(int nIndex)	1	0	__stdcall	false	true	6
+0042a830	GetSysColor	DWORD GetSysColor(int nIndex)	1	0	__stdcall	false	true	6
+0042a848	GetParent	HWND GetParent(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a850	GetMessageW	BOOL GetMessageW(LPMSG lpMsg, HWND hWnd, UINT wMsgFilterMin, UINT wMsgFilterMax)	4	0	__stdcall	false	true	6
+0042a880	GetDC	HDC GetDC(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a888	GetClientRect	BOOL GetClientRect(HWND hWnd, LPRECT lpRect)	2	0	__stdcall	false	true	6
+0042a890	GetClassNameW	int GetClassNameW(HWND hWnd, LPWSTR lpClassName, int nMaxCount)	3	0	__stdcall	false	true	6
+0042a898	GetClassNameA	int GetClassNameA(HWND hWnd, LPSTR lpClassName, int nMaxCount)	3	0	__stdcall	false	true	6
+0042a8a0	GetClassLongPtrW	ULONG_PTR GetClassLongPtrW(HWND hWnd, int nIndex)	2	0	__stdcall	false	true	6
+0042a8a8	GetAncestor	HWND GetAncestor(HWND hwnd, UINT gaFlags)	2	0	__stdcall	false	true	6
+0042a8b0	FlashWindowEx	BOOL FlashWindowEx(PFLASHWINFO pfwi)	1	0	__stdcall	false	true	6
+0042a8c0	FindWindowExW	HWND FindWindowExW(HWND hWndParent, HWND hWndChildAfter, LPCWSTR lpszClass, LPCWSTR lpszWindow)	4	0	__stdcall	false	true	6
+0042a8c8	FillRect	int FillRect(HDC hDC, RECT * lprc, HBRUSH hbr)	3	0	__stdcall	false	true	6
+0042a8d8	EndPaint	BOOL EndPaint(HWND hWnd, PAINTSTRUCT * lpPaint)	2	0	__stdcall	false	true	6
+0042a8e0	EndDeferWindowPos	BOOL EndDeferWindowPos(HDWP hWinPosInfo)	1	0	__stdcall	false	true	6
+0042a8e8	EnableWindow	BOOL EnableWindow(HWND hWnd, BOOL bEnable)	2	0	__stdcall	false	true	6
+0042a8f0	DrawTextW	int DrawTextW(HDC hdc, LPCWSTR lpchText, int cchText, LPRECT lprc, UINT format)	5	0	__stdcall	false	true	6
+0042a900	DispatchMessageW	LRESULT DispatchMessageW(MSG * lpMsg)	1	0	__stdcall	false	true	6
+0042a908	DestroyWindow	BOOL DestroyWindow(HWND hWnd)	1	0	__stdcall	false	true	6
+0042a910	DestroyIcon	BOOL DestroyIcon(HICON hIcon)	1	0	__stdcall	false	true	6
+0042a918	DestroyCursor	BOOL DestroyCursor(HCURSOR hCursor)	1	0	__stdcall	false	true	6
+0042a920	DestroyAcceleratorTable	BOOL DestroyAcceleratorTable(HACCEL hAccel)	1	0	__stdcall	false	true	6
+0042a928	DeferWindowPos	HDWP DeferWindowPos(HDWP hWinPosInfo, HWND hWnd, HWND hWndInsertAfter, int x, int y, int cx, int cy, UINT uFlags)	8	0	__stdcall	false	true	6
+0042a930	DefWindowProcW	LRESULT DefWindowProcW(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)	4	0	__stdcall	false	true	6
+0042a938	CreateWindowExW	HWND CreateWindowExW(DWORD dwExStyle, LPCWSTR lpClassName, LPCWSTR lpWindowName, DWORD dwStyle, int X, int Y, int nWidth, int nHeight, HWND hWndParent, HMENU hMenu, HINSTANCE hInstance, LPVOID lpParam)	12	0	__stdcall	false	true	6
+0042a950	BeginPaint	HDC BeginPaint(HWND hWnd, LPPAINTSTRUCT lpPaint)	2	0	__stdcall	false	true	6
+0042a958	BeginDeferWindowPos	HDWP BeginDeferWindowPos(int nNumWindows)	1	0	__stdcall	false	true	6
+0042a9d0	SetWindowSubclass	BOOL SetWindowSubclass(HWND hWnd, SUBCLASSPROC pfnSubclass, UINT_PTR uIdSubclass, DWORD_PTR dwRefData)	4	0	__stdcall	false	true	6
+0042a9d8	InitCommonControlsEx	BOOL InitCommonControlsEx(INITCOMMONCONTROLSEX * picce)	1	0	__stdcall	false	true	6
+0042a9e0	StrToIntW	int StrToIntW(LPCWSTR lpSrc)	1	0	__stdcall	false	true	6
+0042a9f0	GdiplusStartup	undefined GdiplusStartup(void)	0	0	unknown	false	true	6
+0042a9f8	GdiplusShutdown	undefined GdiplusShutdown(void)	0	0	unknown	false	true	6
+0042aa08	GdipSetSmoothingMode	undefined GdipSetSmoothingMode(void)	0	0	unknown	false	true	6
+0042aa58	GdipFillRectangle	undefined GdipFillRectangle(void)	0	0	unknown	false	true	6
+0042aa60	GdipFillPolygon	undefined GdipFillPolygon(void)	0	0	unknown	false	true	6
+0042aa68	GdipFillPath	undefined GdipFillPath(void)	0	0	unknown	false	true	6
+0042aa70	GdipFillEllipse	undefined GdipFillEllipse(void)	0	0	unknown	false	true	6
+0042aa78	GdipDrawRectangle	undefined GdipDrawRectangle(void)	0	0	unknown	false	true	6
+0042aa80	GdipDrawPolygon	undefined GdipDrawPolygon(void)	0	0	unknown	false	true	6
+0042aa88	GdipDrawPath	undefined GdipDrawPath(void)	0	0	unknown	false	true	6
+0042aa98	GdipDrawEllipse	undefined GdipDrawEllipse(void)	0	0	unknown	false	true	6
+0042aaa0	GdipDisposeImage	undefined GdipDisposeImage(void)	0	0	unknown	false	true	6
+0042aaa8	GdipDeletePen	undefined GdipDeletePen(void)	0	0	unknown	false	true	6
+0042aab0	GdipDeletePath	undefined GdipDeletePath(void)	0	0	unknown	false	true	6
+0042aab8	GdipDeleteGraphics	undefined GdipDeleteGraphics(void)	0	0	unknown	false	true	6
+0042aac0	GdipDeleteFontFamily	undefined GdipDeleteFontFamily(void)	0	0	unknown	false	true	6
+0042aad0	GdipDeleteBrush	undefined GdipDeleteBrush(void)	0	0	unknown	false	true	6
+0042aad8	GdipCreateSolidFill	undefined GdipCreateSolidFill(void)	0	0	unknown	false	true	6
+0042aae0	GdipCreatePen1	undefined GdipCreatePen1(void)	0	0	unknown	false	true	6
+0042aae8	GdipCreatePath	undefined GdipCreatePath(void)	0	0	unknown	false	true	6
+0042aaf0	GdipCreateLineBrush	undefined GdipCreateLineBrush(void)	0	0	unknown	false	true	6
+0042ab08	GdipCreateFromHDC	undefined GdipCreateFromHDC(void)	0	0	unknown	false	true	6
+0042ab28	GdipClosePathFigure	undefined GdipClosePathFigure(void)	0	0	unknown	false	true	6
+0042ab48	GdipAddPathLine	undefined GdipAddPathLine(void)	0	0	unknown	false	true	6
+0042ab50	GdipAddPathArc	undefined GdipAddPathArc(void)	0	0	unknown	false	true	6
+0042ab60	FUN_0042ab60	undefined FUN_0042ab60(longlong param_1, ulonglong param_2)	2	0	__fastcall	false	false	83
+0042abe0	FUN_0042abe0	undefined FUN_0042abe0(longlong param_1)	1	0	__fastcall	false	false	15
+0042ac00	FUN_0042ac00	undefined FUN_0042ac00(undefined8 * param_1)	1	0	__fastcall	false	false	73
+0042ac50	FUN_0042ac50	undefined FUN_0042ac50(undefined8 * param_1, undefined * param_2, undefined * param_3)	3	1	__fastcall	false	false	65
+0042aca0	FUN_0042aca0	undefined FUN_0042aca0(undefined8 * param_1, longlong param_2, int param_3, undefined * param_4, ulonglong param_5, longlong * param_6)	6	4	__fastcall	false	false	357
+0042ae20	FUN_0042ae20	undefined FUN_0042ae20(undefined8 * param_1, longlong param_2, int param_3, int param_4, ulonglong param_5)	5	3	__fastcall	false	false	95
+0042ae90	FUN_0042ae90	undefined FUN_0042ae90(undefined8 * param_1, ulonglong param_2, int param_3, undefined * param_4, undefined * param_5, undefined8 param_6, ulonglong param_7, longlong * param_8)	8	7	__fastcall	false	false	494
+0042b090	FUN_0042b090	undefined FUN_0042b090(undefined8 * param_1, ulonglong param_2, int param_3, int param_4, ulonglong param_5)	5	5	__fastcall	false	false	114
+0042b110	FUN_0042b110	undefined FUN_0042b110(undefined8 * param_1, ulonglong param_2, undefined * param_3, longlong param_4, ulonglong param_5)	5	5	__fastcall	false	false	128
+0042b2d0	FUN_0042b2d0	undefined FUN_0042b2d0(undefined8 * param_1)	1	0	__fastcall	false	false	52
+0042b310	FUN_0042b310	longlong FUN_0042b310(longlong * param_1, longlong param_2)	2	0	__fastcall	false	false	58
+0042b360	FUN_0042b360	undefined4 FUN_0042b360(void)	0	0	__fastcall	false	false	27
+0042b380	FUN_0042b380	undefined4 FUN_0042b380(undefined4 param_1)	1	0	__fastcall	false	false	38
+0042b530	FUN_0042b530	undefined FUN_0042b530(undefined4 param_1, undefined8 param_2, undefined4 param_3)	3	0	__fastcall	false	false	21
+0042b550	FUN_0042b550	undefined FUN_0042b550(int param_1)	1	0	__fastcall	false	false	31
+0042b5e0	FUN_0042b5e0	undefined8 * FUN_0042b5e0(undefined8 * param_1, ulonglong param_2, char * param_3, longlong param_4, int param_5, int param_6)	6	0	__fastcall	false	false	527
+0042b830	FUN_0042b830	undefined FUN_0042b830(undefined8 * param_1, ulonglong param_2, char * param_3, longlong param_4, int param_5)	5	2	__fastcall	false	false	30
+0042b850	FUN_0042b850	undefined FUN_0042b850(undefined8 * param_1, ulonglong param_2, char * param_3, longlong param_4, int param_5)	5	2	__fastcall	false	false	30
+0042b910	FUN_0042b910	uint FUN_0042b910(char * param_1, longlong param_2, char * param_3, longlong param_4)	4	0	__fastcall	false	false	345
+0042ba80	FUN_0042ba80	undefined8 * FUN_0042ba80(undefined8 * param_1, char * param_2, longlong param_3, char * param_4, longlong param_5)	5	0	__fastcall	false	false	330
+0042bbe0	FUN_0042bbe0	double FUN_0042bbe0(char * param_1, longlong param_2)	2	1	__fastcall	false	false	308
+0042bd30	FUN_0042bd30	double FUN_0042bd30(undefined8 * param_1)	1	1	__fastcall	false	false	103
+0042bdb0	FUN_0042bdb0	ulong FUN_0042bdb0(char * param_1, longlong param_2)	2	0	__fastcall	false	false	196
+0042be90	FUN_0042be90	ulong FUN_0042be90(undefined8 * param_1)	1	0	__fastcall	false	false	89
+0042bef0	FUN_0042bef0	int FUN_0042bef0(char * param_1, longlong param_2, int param_3)	3	0	__fastcall	false	false	185
+0042bfe0	FUN_0042bfe0	longlong FUN_0042bfe0(char * param_1, longlong param_2, int param_3)	3	0	__fastcall	false	false	213
+0042c1e0	FUN_0042c1e0	undefined8 * FUN_0042c1e0(longlong param_1)	1	0	__fastcall	false	false	119
+0042c260	FUN_0042c260	undefined8 * FUN_0042c260(ulonglong param_1)	1	0	__fastcall	false	false	119
+0042c2e0	FUN_0042c2e0	undefined FUN_0042c2e0(void)	0	0	__fastcall	false	false	107
+0042c350	FUN_0042c350	undefined8 FUN_0042c350(undefined8 * param_1)	1	0	__fastcall	false	false	84
+0042c3b0	FUN_0042c3b0	undefined8 * FUN_0042c3b0(undefined8 * param_1, ulonglong param_2)	2	0	__fastcall	false	false	95
+0042c410	FUN_0042c410	undefined8 * FUN_0042c410(undefined8 * param_1, ulonglong param_2, int param_3)	3	0	__fastcall	false	false	258
+0042c520	FUN_0042c520	undefined8 * FUN_0042c520(undefined8 * param_1, ulonglong param_2)	2	1	__fastcall	false	false	108
+0042c5a0	thunk_FUN_0042c520	undefined8 * thunk_FUN_0042c520(undefined8 * param_1, ulonglong param_2)	2	0	__fastcall	false	true	5
+0042c5b0	FUN_0042c5b0	undefined8 FUN_0042c5b0(undefined8 * param_1)	1	0	__fastcall	false	false	108
+0042c630	thunk_FUN_0042c5b0	undefined8 thunk_FUN_0042c5b0(undefined8 * param_1)	1	0	__fastcall	false	true	5
+0042c640	FUN_0042c640	undefined FUN_0042c640(undefined1 * param_1, void * param_2, size_t param_3)	3	0	__fastcall	false	false	51
+0042c680	FUN_0042c680	undefined FUN_0042c680(undefined8 * param_1)	1	0	__fastcall	false	false	56
+0042c6d0	FUN_0042c6d0	longlong * FUN_0042c6d0(ulonglong param_1, int param_2)	2	0	__fastcall	false	false	92
+0042c730	FUN_0042c730	longlong * FUN_0042c730(ulonglong param_1, int param_2)	2	0	__fastcall	false	false	19
+0042c7f0	FUN_0042c7f0	longlong * FUN_0042c7f0(byte param_1, int param_2)	2	0	__fastcall	false	false	191
+0042c8f0	FUN_0042c8f0	char * FUN_0042c8f0(char * param_1, longlong param_2, int param_3)	3	0	__fastcall	false	false	43
+0042c920	FUN_0042c920	char * FUN_0042c920(char * param_1, longlong param_2, int param_3)	3	0	__fastcall	false	false	56
+0042c970	FUN_0042c970	longlong FUN_0042c970(longlong param_1, longlong param_2, longlong param_3, longlong param_4, longlong param_5)	5	5	__fastcall	false	false	438
+0042cb40	FUN_0042cb40	longlong FUN_0042cb40(longlong param_1, longlong * param_2, undefined8 * param_3)	3	1	__fastcall	false	false	207
+0042cc20	FUN_0042cc20	undefined8 * FUN_0042cc20(longlong * param_1, ulonglong param_2)	2	0	__fastcall	false	false	148
+0042cd30	FUN_0042cd30	size_t FUN_0042cd30(char * param_1, longlong param_2)	2	0	__fastcall	false	false	70
+0042cd80	FUN_0042cd80	longlong * FUN_0042cd80(longlong * param_1, longlong param_2, ulonglong param_3)	3	1	__fastcall	false	false	186
+0042ce40	FUN_0042ce40	undefined8 * FUN_0042ce40(undefined8 param_1, undefined8 param_2)	2	0	__fastcall	false	false	58
+0042cee0	FUN_0042cee0	undefined8 * FUN_0042cee0(undefined8 * param_1)	1	0	__fastcall	false	false	96
+0042cf50	FUN_0042cf50	undefined8 * FUN_0042cf50(longlong * param_1)	1	0	__fastcall	false	false	206
+0042d030	FUN_0042d030	undefined8 * FUN_0042d030(longlong * param_1, int param_2)	2	0	__fastcall	false	false	257
+0042d150	FUN_0042d150	void * FUN_0042d150(longlong param_1)	1	0	__fastcall	false	false	18
+0042d170	FUN_0042d170	undefined2 * FUN_0042d170(undefined2 * param_1, longlong param_2, wchar_t * param_3)	3	0	__fastcall	false	false	126
+0042d200	FUN_0042d200	uint FUN_0042d200(wchar_t * param_1, wchar_t * param_2)	2	0	__fastcall	false	false	163
+0042d2c0	FUN_0042d2c0	void * FUN_0042d2c0(wchar_t * param_1, wchar_t * param_2)	2	0	__fastcall	false	false	156
+0042d370	FUN_0042d370	wchar_t * FUN_0042d370(wchar_t * param_1, longlong param_2, byte * param_3, longlong param_4)	4	0	__fastcall	false	false	139
+0042d620	FUN_0042d620	void * FUN_0042d620(wchar_t * param_1, byte * param_2, longlong param_3)	3	0	__fastcall	false	false	241
+0042dad0	FUN_0042dad0	size_t FUN_0042dad0(wchar_t * param_1, longlong param_2, byte * param_3)	3	0	__fastcall	false	false	165
+0042db90	FUN_0042db90	wchar_t * FUN_0042db90(byte * param_1)	1	0	__fastcall	false	false	196
+0042dc70	FUN_0042dc70	wchar_t * FUN_0042dc70(int param_1)	1	0	__fastcall	false	false	59
+0042ded0	FUN_0042ded0	undefined FUN_0042ded0(void * param_1)	1	0	__fastcall	false	false	11
+0042e0a0	FUN_0042e0a0	size_t FUN_0042e0a0(wchar_t * param_1, wchar_t * param_2, size_t param_3)	3	0	__fastcall	false	false	142
+0042e140	FUN_0042e140	undefined2 * FUN_0042e140(wchar_t * param_1, size_t param_2)	2	0	__fastcall	false	false	141
+0042e1e0	FUN_0042e1e0	size_t FUN_0042e1e0(wchar_t * param_1)	1	0	__fastcall	false	false	13
+0042e200	FUN_0042e200	undefined2 * FUN_0042e200(wchar_t * param_1, longlong param_2, size_t param_3)	3	0	__fastcall	false	false	199
+0042e380	FUN_0042e380	undefined2 * FUN_0042e380(longlong param_1)	1	0	__fastcall	false	false	82
+0042e4c0	FUN_0042e4c0	undefined2 * FUN_0042e4c0(wchar_t * param_1, int param_2)	2	0	__fastcall	false	false	233
+0042e5c0	FUN_0042e5c0	HMODULE FUN_0042e5c0(undefined8 * param_1)	1	0	__fastcall	false	false	61
+0042e610	FUN_0042e610	FARPROC FUN_0042e610(HMODULE param_1, undefined8 * param_2)	2	5	__fastcall	false	false	241
+0042e760	FreeLibrary	BOOL FreeLibrary(HMODULE hLibModule)	1	0	__stdcall	false	true	6
+0042e770	FUN_0042e770	undefined FUN_0042e770(int param_1, longlong param_2, undefined8 param_3)	3	0	__fastcall	false	false	75
+0042e7d0	FUN_0042e7d0	undefined FUN_0042e7d0(int param_1)	1	0	__fastcall	false	false	67
+0042e820	FUN_0042e820	undefined FUN_0042e820(void)	0	0	__fastcall	false	false	37
+0042e850	FUN_0042e850	undefined8 FUN_0042e850(void)	0	0	__fastcall	false	false	30
+0042e870	FUN_0042e870	undefined FUN_0042e870(void)	0	0	__fastcall	false	false	57
+0042e8c0	FUN_0042e8c0	undefined FUN_0042e8c0(DWORD param_1, int param_2)	2	0	__fastcall	false	false	59
+0042e900	FUN_0042e900	undefined FUN_0042e900(longlong param_1)	1	0	__fastcall	false	false	45
+0042e940	FUN_0042e940	undefined FUN_0042e940(longlong param_1, undefined * param_2)	2	0	__fastcall	false	false	63
+0042e9a0	FUN_0042e9a0	undefined FUN_0042e9a0(longlong param_1, undefined * param_2, undefined * param_3)	3	0	__fastcall	false	false	89
+0042ea00	FUN_0042ea00	longlong FUN_0042ea00(ulonglong param_1, longlong * param_2, longlong * param_3)	3	0	__fastcall	false	false	61
+0042ea40	FUN_0042ea40	longlong FUN_0042ea40(longlong param_1, longlong * param_2, longlong param_3)	3	0	__fastcall	false	false	82
+0042eaa0	FUN_0042eaa0	ulonglong FUN_0042eaa0(longlong param_1)	1	0	__fastcall	false	false	25
+0042eae0	FUN_0042eae0	undefined FUN_0042eae0(longlong param_1, undefined * param_2, ulonglong param_3)	3	0	__fastcall	false	false	86
+0042eb60	FUN_0042eb60	undefined FUN_0042eb60(longlong param_1, undefined * param_2)	2	0	__fastcall	false	false	16
+0042eb80	FUN_0042eb80	undefined FUN_0042eb80(undefined8 * param_1)	1	0	__fastcall	false	false	48
+0042ebc0	FUN_0042ebc0	undefined FUN_0042ebc0(void)	0	1	__fastcall	false	false	52
+0042ec50	FUN_0042ec50	undefined FUN_0042ec50(longlong param_1)	1	0	__fastcall	false	false	36
+0042ed40	FUN_0042ed40	undefined FUN_0042ed40(void)	0	0	__fastcall	false	false	107
+0042edb0	FUN_0042edb0	undefined FUN_0042edb0(void)	0	0	__fastcall	false	false	132
+0042ee40	FUN_0042ee40	undefined FUN_0042ee40(void)	0	0	__fastcall	false	false	1
+0042ee50	FUN_0042ee50	undefined FUN_0042ee50(int * param_1, int * param_2)	2	0	__fastcall	false	false	26
+0042ee70	FUN_0042ee70	undefined FUN_0042ee70(void)	0	0	__fastcall	false	false	23
+0042ee90	FUN_0042ee90	undefined FUN_0042ee90(DWORD param_1)	1	0	__fastcall	false	false	26
+0042eeb0	FUN_0042eeb0	undefined FUN_0042eeb0(int * param_1, int * param_2)	2	2	__fastcall	false	false	110
+0042ef60	FUN_0042ef60	int FUN_0042ef60(void)	0	2	__fastcall	false	false	44
+0042ef90	FUN_0042ef90	int FUN_0042ef90(void)	0	1	__fastcall	false	false	40
+0042efc0	FUN_0042efc0	undefined FUN_0042efc0(void)	0	3	__fastcall	false	false	159
+0042f070	FUN_0042f070	undefined FUN_0042f070(void)	0	0	__fastcall	false	false	30
+0042f0c0	FUN_0042f0c0	undefined FUN_0042f0c0(void)	0	0	__fastcall	false	false	13
+0042f210	FUN_0042f210	undefined FUN_0042f210(int * param_1, int * param_2, int * param_3, int * param_4)	4	0	__fastcall	false	false	183
+0042f370	FUN_0042f370	undefined FUN_0042f370(int * param_1, int * param_2, int * param_3, int * param_4)	4	2	__fastcall	false	false	149
+0042f410	FUN_0042f410	undefined FUN_0042f410(undefined8 * param_1, undefined8 * param_2, longlong param_3, ulonglong param_4)	4	0	__fastcall	false	false	93
+0042f470	FUN_0042f470	longlong * FUN_0042f470(int * param_1)	1	0	__fastcall	false	false	42
+0042f4a0	FUN_0042f4a0	undefined FUN_0042f4a0(int * param_1, longlong * param_2)	2	0	__fastcall	false	false	36
+0042f4d0	FUN_0042f4d0	undefined FUN_0042f4d0(undefined8 * param_1)	1	0	__fastcall	false	false	32
+0042f4f0	FUN_0042f4f0	undefined FUN_0042f4f0(int * param_1, longlong * param_2)	2	0	__fastcall	false	false	38
+0042f520	FUN_0042f520	undefined FUN_0042f520(int * param_1, longlong * param_2)	2	0	__fastcall	false	false	62
+0042f560	Sleep	void Sleep(DWORD dwMilliseconds)	1	0	__stdcall	false	true	6
+0042f570	FUN_0042f570	undefined FUN_0042f570(DWORD param_1)	1	0	__fastcall	false	false	101
+0042f5e0	FUN_0042f5e0	HANDLE FUN_0042f5e0(int param_1)	1	1	__fastcall	false	false	159
+0042f7b0	FUN_0042f7b0	ulonglong FUN_0042f7b0(byte param_1, ushort param_2, uint param_3, uint param_4, int param_5)	5	0	__fastcall	false	false	421
+0042f980	FUN_0042f980	undefined FUN_0042f980(int * param_1)	1	3	__fastcall	false	false	524
+0042fba0	FUN_0042fba0	undefined8 FUN_0042fba0(void)	0	5	__fastcall	false	false	323
+0042fd00	FUN_0042fd00	undefined4 FUN_0042fd00(void)	0	0	__fastcall	false	false	30
+0042fef0	FUN_0042fef0	undefined FUN_0042fef0(void)	0	0	__fastcall	false	false	57
+0042ff30	FUN_0042ff30	undefined FUN_0042ff30(void)	0	0	__fastcall	false	false	101
+0042ffa0	FUN_0042ffa0	undefined FUN_0042ffa0(void)	0	0	__fastcall	false	false	26
+0042ffd8	wcsncmp	int wcsncmp(wchar_t * _Str1, wchar_t * _Str2, size_t _MaxCount)	3	0	__cdecl	false	true	6
+0042ffe0	wcslen	size_t wcslen(wchar_t * _Str)	1	0	__cdecl	false	true	6
+0042fff8	towupper	wint_t towupper(wint_t _C)	1	0	__cdecl	false	true	6
+00430010	strtoul	ulong strtoul(char * _Str, char * * _EndPtr, int _Radix)	3	0	__cdecl	false	true	6
+00430018	strlen	size_t strlen(char * _Str)	1	0	__cdecl	false	true	6
+00430020	strchr	char * strchr(char * _Str, int _Val)	2	0	__cdecl	false	true	6
+00430030	realloc	void * realloc(void * _Memory, size_t _NewSize)	2	0	__cdecl	false	true	6
+00430040	memset	void * memset(void * _Dst, int _Val, size_t _Size)	3	0	__cdecl	false	true	6
+00430048	memcpy	void * memcpy(void * _Dst, void * _Src, size_t _Size)	3	0	__cdecl	false	true	6
+00430050	memcmp	int memcmp(void * _Buf1, void * _Buf2, size_t _Size)	3	0	__cdecl	false	true	6
+00430058	memchr	void * memchr(void * _Buf, int _Val, size_t _MaxCount)	3	0	__cdecl	false	true	6
+00430060	mbstowcs	size_t mbstowcs(wchar_t * _Dest, char * _Source, size_t _MaxCount)	3	0	__cdecl	false	true	6
+00430068	malloc	void * malloc(size_t _Size)	1	0	__cdecl	false	true	6
+00430070	iswctype	int iswctype(wint_t _C, wctype_t _Type)	2	0	__cdecl	false	true	6
+00430088	free	void free(void * _Memory)	1	0	__cdecl	false	true	6
+00430098	exit	void exit(int _Code)	1	0	__cdecl	false	true	6
+004300a0	calloc	void * calloc(size_t _Count, size_t _Size)	2	0	__cdecl	false	true	6
+004300d0	_onexit	_onexit_t _onexit(_onexit_t _Func)	1	0	__cdecl	false	true	6
+004300e8	_initterm	undefined _initterm(void)	0	0	unknown	false	true	6
+00430108	_cexit	void _cexit(void)	0	0	__cdecl	false	true	6
+00430110	_amsg_exit	void _amsg_exit(int param_1)	1	0	__cdecl	false	true	6
+00430118	__set_app_type	void __set_app_type(int param_1)	1	0	__cdecl	false	true	6
+00430120	__getmainargs	undefined __getmainargs(void)	0	0	unknown	false	true	6
+00430130	FUN_00430130	FILE * FUN_00430130(uint param_1)	1	0	__fastcall	false	false	31
+00430150	FUN_00430150	undefined8 FUN_00430150(void)	0	0	__fastcall	false	false	8
+00430160	FUN_00430160	undefined8 FUN_00430160(undefined8 param_1)	1	0	__fastcall	false	false	11
+00430170	FUN_00430170	undefined * FUN_00430170(void)	0	0	__fastcall	false	false	11
+00430180	FUN_00430180	undefined * FUN_00430180(void)	0	0	__fastcall	false	false	11
+00430190	__iob_func	FILE * __iob_func(void)	0	0	__cdecl	false	true	6
+004301a0	__lconv_init	undefined __lconv_init(void)	0	0	unknown	false	true	7
+004301b0	FUN_004301b0	undefined8 FUN_004301b0(void)	0	0	__fastcall	false	false	3
+004301c0	FUN_004301c0	undefined FUN_004301c0(void)	0	2	__fastcall	false	false	206
+004302a0	FUN_004302a0	undefined FUN_004302a0(undefined8 param_1)	1	11	__fastcall	false	false	248
+004303a0	tls_callback_1	undefined8 tls_callback_1(undefined8 param_1, uint param_2)	2	0	__fastcall	false	false	38
+004303d0	tls_callback_0	undefined8 tls_callback_0(undefined8 param_1, int param_2)	2	0	__fastcall	false	false	118
+00430460	FUN_00430460	undefined8 FUN_00430460(void)	0	0	__fastcall	false	false	3
+00430470	FUN_00430470	undefined8 FUN_00430470(undefined4 * param_1)	1	6	__fastcall	false	false	218
+00430570	FUN_00430570	undefined FUN_00430570(void)	0	0	__fastcall	false	false	3
+00430580	FUN_00430580	undefined FUN_00430580(char * param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4)	4	4	__fastcall	false	false	105
+004305f0	FUN_004305f0	undefined FUN_004305f0(undefined8 * param_1, undefined8 * param_2, undefined8 param_3, undefined8 param_4)	4	3	__fastcall	false	false	503
+00430800	FUN_00430800	undefined FUN_00430800(undefined8 param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4)	4	3	__fastcall	false	false	732
+00430af0	FUN_00430af0	undefined FUN_00430af0(undefined4 param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5)	5	5	__fastcall	false	false	65
+00430b40	FUN_00430b40	undefined FUN_00430b40(undefined8 param_1)	1	0	__fastcall	false	false	12
+00430b50	FUN_00430b50	bool FUN_00430b50(uint * param_1)	1	0	__fastcall	false	false	387
+00430d10	FUN_00430d10	int FUN_00430d10(void)	0	0	__fastcall	false	false	228
+00430e10	FUN_00430e10	undefined8 FUN_00430e10(undefined8 * param_1)	1	0	__fastcall	false	false	406
+00430fc0	FUN_00430fc0	undefined FUN_00430fc0(void)	0	0	__fastcall	false	false	107
+00431030	FUN_00431030	undefined4 FUN_00431030(undefined4 param_1, undefined8 param_2)	2	0	__fastcall	false	false	118
+004310b0	FUN_004310b0	undefined8 FUN_004310b0(int param_1)	1	0	__fastcall	false	false	119
+00431140	FUN_00431140	undefined8 FUN_00431140(undefined8 param_1, uint param_2)	2	0	__fastcall	false	false	208
+00431220	FUN_00431220	bool FUN_00431220(longlong param_1)	1	0	__fastcall	false	false	30
+00431240	FUN_00431240	bool FUN_00431240(short * param_1)	1	0	__fastcall	false	false	12
+00431260	FUN_00431260	longlong FUN_00431260(longlong param_1, ulonglong param_2)	2	0	__fastcall	false	false	72
+004312b0	FUN_004312b0	char * FUN_004312b0(char * param_1)	1	0	__fastcall	false	false	143
+00431350	FUN_00431350	longlong FUN_00431350(longlong param_1)	1	0	__fastcall	false	false	129
+004313e0	FUN_004313e0	ulonglong FUN_004313e0(void)	0	0	__fastcall	false	false	43
+00431410	FUN_00431410	longlong FUN_00431410(longlong param_1)	1	0	__fastcall	false	false	108
+00431480	FUN_00431480	IMAGE_DOS_HEADER * FUN_00431480(void)	0	0	__fastcall	false	false	40
+004314b0	FUN_004314b0	ulonglong FUN_004314b0(longlong param_1)	1	0	__fastcall	false	false	129
+00431540	FUN_00431540	char * FUN_00431540(uint param_1)	1	0	__fastcall	false	false	175
+00431600	FUN_00431600	ulonglong FUN_00431600(char * param_1, longlong * param_2)	2	3	__fastcall	false	false	194
+004316e0	FUN_004316e0	double FUN_004316e0(double param_1)	1	1	__fastcall	false	false	389
+00431890	FUN_00431890	undefined8 * FUN_00431890(undefined8 * param_1)	1	0	__fastcall	false	false	165
+00431950	FUN_00431950	undefined4 FUN_00431950(undefined8 param_1, uint * param_2, uint * param_3, undefined4 * param_4, int param_5, int param_6, uint * param_7)	7	3	__fastcall	false	false	860
+00431ce0	FUN_00431ce0	undefined FUN_00431ce0(longlong param_1)	1	0	__fastcall	false	false	42
+00431d10	FUN_00431d10	undefined FUN_00431d10(undefined8 * param_1, uint param_2)	2	0	__fastcall	false	false	195
+00431df0	FUN_00431df0	uint FUN_00431df0(char * param_1, longlong * param_2, uint * param_3, uint * param_4, uint * param_5)	5	34	__fastcall	false	false	6827
+00433930	FUN_00433930	undefined8 * FUN_00433930(longlong param_1, longlong param_2)	2	0	__fastcall	false	false	392
+00433ac0	FUN_00433ac0	byte FUN_00433ac0(longlong * param_1, uint * param_2, uint * param_3, longlong * param_4, uint param_5)	5	3	__fastcall	false	false	2289
+00434420	FUN_00434420	undefined FUN_00434420(longlong param_1, uint param_2)	2	0	__fastcall	false	false	224
+00434520	FUN_00434520	int FUN_00434520(longlong param_1)	1	0	__fastcall	false	false	57
+00434570	FUN_00434570	undefined FUN_00434570(void)	0	0	__fastcall	false	false	148
+00434610	FUN_00434610	undefined8 FUN_00434610(undefined8 * param_1, uint * param_2, uint * param_3)	3	3	__fastcall	false	false	969
+00434a20	FUN_00434a20	undefined FUN_00434a20(int param_1)	1	0	__fastcall	false	false	200
+00434b00	FUN_00434b00	undefined FUN_00434b00(void)	0	0	__fastcall	false	false	61
+00434b50	FUN_00434b50	undefined FUN_00434b50(int param_1)	1	1	__fastcall	false	false	243
+00434c50	FUN_00434c50	undefined FUN_00434c50(undefined8 * param_1)	1	0	__fastcall	false	false	98
+00434cc0	FUN_00434cc0	undefined8 * FUN_00434cc0(undefined8 * param_1, int param_2, int param_3)	3	0	__fastcall	false	false	173
+00434d70	FUN_00434d70	undefined FUN_00434d70(undefined4 param_1)	1	0	__fastcall	false	false	38
+00434da0	FUN_00434da0	longlong FUN_00434da0(longlong param_1, longlong param_2)	2	0	__fastcall	false	false	315
+00434ef0	FUN_00434ef0	undefined8 * FUN_00434ef0(undefined8 * param_1, uint param_2)	2	0	__fastcall	false	false	378
+00435080	FUN_00435080	longlong FUN_00435080(undefined8 * param_1, uint param_2)	2	0	__fastcall	false	false	292
+004351b0	FUN_004351b0	uint FUN_004351b0(longlong param_1, longlong param_2)	2	0	__fastcall	false	false	68
+00435200	FUN_00435200	undefined FUN_00435200(longlong param_1, longlong param_2)	2	0	__fastcall	false	false	439
+004353d0	FUN_004353d0	ulonglong FUN_004353d0(longlong param_1, int * param_2)	2	0	__fastcall	false	false	262
+004354f0	FUN_004354f0	undefined FUN_004354f0(undefined8 param_1, int * param_2, int * param_3)	3	0	__fastcall	false	false	252
+004355f0	FUN_004355f0	undefined FUN_004355f0(char * param_1, char * param_2)	2	0	__fastcall	false	false	34
+00435620	FUN_00435620	undefined8 * FUN_00435620(longlong param_1, int param_2, int param_3, undefined4 param_4, int param_5)	5	0	__fastcall	false	false	259
+00435730	FUN_00435730	double FUN_00435730(longlong param_1, longlong param_2)	2	2	__fastcall	false	false	143
+004357d0	FUN_004357d0	undefined8 FUN_004357d0(undefined8 * param_1, char * param_2)	2	0	__fastcall	false	false	59
+00435820	FUN_00435820	undefined FUN_00435820(undefined4 * param_1, int param_2, longlong param_3)	3	0	__fastcall	false	false	90
+00435880	FUN_00435880	undefined4 FUN_00435880(longlong param_1, uint param_2)	2	0	__fastcall	false	false	103
+00435a10	FUN_00435a10	ulonglong FUN_00435a10(void)	0	2	__fastcall	false	false	50
+00435a50	vfprintf	int vfprintf(FILE * _File, char * _Format, va_list _ArgList)	3	0	__cdecl	false	true	6
+00435a58	strncmp	int strncmp(char * _Str1, char * _Str2, size_t _MaxCount)	3	0	__cdecl	false	true	6
+00435a60	signal	void signal(int param_1)	1	0	unknown	false	true	6
+00435a68	localeconv	lconv * localeconv(void)	0	0	__cdecl	false	true	6
+00435a70	fwrite	size_t fwrite(void * _Str, size_t _Size, size_t _Count, FILE * _File)	4	0	__cdecl	false	true	6
+00435a78	fprintf	int fprintf(FILE * _File, char * _Format, ...)	2	0	__cdecl	false	true	6
+00435a80	abort	void abort(void)	0	0	__cdecl	false	true	6
+00435a88	_errno	int * _errno(void)	0	0	__cdecl	false	true	6
+00435a90	__setusermatherr	undefined __setusermatherr(void)	0	0	unknown	false	true	6
+00435aa0	thunk_FUN_00401540	undefined thunk_FUN_00401540(void)	0	0	__fastcall	false	true	5

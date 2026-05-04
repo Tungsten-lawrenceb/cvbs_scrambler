@@ -1,0 +1,18 @@
+# Ghidra project — regenerates from the .exe via scripts/DumpAll.java
+# in ~90 seconds of headless analysis; not worth tracking the binary blobs.
+cvbs_scramble.gpr
+cvbs_scramble.rep/
+cvbs_scramble.lock
+cvbs_scramble.lock~
+
+# Claude Code local state — paths and MCP config are host-specific.
+.claude/
+
+# Build output (none yet, but the recovered CMakeLists puts it here).
+build/
+
+# Editor/OS junk.
+.vscode/
+.idea/
+*.swp
+.DS_Store

@@ -1,0 +1,12 @@
+# name  start  end  size  perms
+Headers    00400000 004003ff 1024 r--
+.text      00401000 00435bff 216064 r-x
+.data      00436000 00437fff 8192 rw-
+.rdata     00438000 0043b5ff 13824 r--
+.pdata     0043c000 0043c3ff 1024 r--
+.xdata     0043d000 0043d3ff 1024 r--
+.bss       0043e000 0044a41f 50208 rw-
+.idata     0044b000 0044dfff 12288 rw-
+.CRT       0044e000 0044e1ff 512 rw-
+.tls       0044f000 0044f1ff 512 rw-
+.rsrc      00450000 00454fff 20480 rw-

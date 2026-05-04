@@ -1,0 +1,737 @@
+addr	type	length	value
+004366c0	unicode	20	text/html
+004366d8	string	12	Shlwapi.dll
+004366e8	string	20	PathMatchSpecExW
+00436700	string	12	UrlFixupW
+00436788	string	12	crypt32.dll
+00436798	string	24	CryptBinaryToStringA
+004367b0	string	24	CryptBinaryToStringW
+004367c8	string	24	CryptStringToBinaryA
+004367e0	string	24	CryptStringToBinaryW
+00436808	string	8	Message
+00436810	unicode	20	NtDll.dll
+00436828	string	14	RtlGetVersion
+00436840	string	16	COMCTL32.DLL
+00436860	string	12	shell32.dll
+00436870	string	16	Control_RunDLLW
+00436888	unicode	76	SOFTWARE\Microsoft\Internet Explorer
+004368d8	unicode	16	Version
+00436908	string	8	IEFrame
+00436910	string	20	MozillaWindowClass
+00436928	string	20	Chrome_WidgetWin_1
+00436940	unicode	16	mailto
+00436988	unicode	80	Software\Microsoft\Shared Tools\MSInfo
+004369f8	string	24	UuidCreateSequential
+00436a28	unicode	36	tooltips_class32
+00436a50	string	11	user32.dll
+00436a60	string	20	SetProcessDPIAware
+00436a78	string	18	IsProcessDPIAware
+00436a90	unicode	64	Software\Microsoft\Windows\DWM
+00436ad0	unicode	28	UseDpiScaling
+00436af0	string	16	Comctl32.dll
+00436b00	string	16	LoadIconMetric
+00436b10	unicode	16	DISPLAY
+00436b28	unicode	36	tooltips_class32
+00436b50	string	15	VFBWindowClass
+00436b60	string	9	Segoe UI
+00436b70	string	7	Tahoma
+00436b78	string	7	BUTTON
+00436b80	unicode	14	BUTTON
+00436b90	unicode	26	CUSTOMBUTTON
+00436bb0	unicode	32	OWNERDRAWBUTTON
+00436bd0	string	7	Button
+00436bd8	string	7	OPTION
+00436be0	unicode	24	RADIOBUTTON
+00436bf8	unicode	14	OPTION
+00436c08	unicode	18	CHECKBOX
+00436c20	unicode	24	CHECK3STATE
+00436c38	unicode	12	LABEL
+00436c48	string	7	Static
+00436c50	string	12	BITMAPLABEL
+00436c60	unicode	24	BITMAPLABEL
+00436c78	string	10	ICONLABEL
+00436c88	unicode	20	ICONLABEL
+00436ca0	string	13	BITMAPBUTTON
+00436cb0	unicode	26	BITMAPBUTTON
+00436cd0	string	11	ICONBUTTON
+00436ce0	unicode	22	ICONBUTTON
+00436cf8	unicode	24	CUSTOMLABEL
+00436d10	unicode	12	FRAME
+00436d20	unicode	24	FRAMEWINDOW
+00436d38	unicode	18	GROUPBOX
+00436d50	unicode	10	LINE
+00436d60	string	8	TEXTBOX
+00436d68	unicode	10	EDIT
+00436d78	unicode	16	TEXTBOX
+00436d90	unicode	28	EDITMULTILINE
+00436db0	unicode	34	MULTILINETEXTBOX
+00436dd8	string	9	COMBOBOX
+00436de8	unicode	18	COMBOBOX
+00436e00	unicode	22	COMBOBOXEX
+00436e18	unicode	26	COMBOBOXEX32
+00436e38	string	13	ComboBoxEx32
+00436e48	string	8	LISTBOX
+00436e50	unicode	16	LISTBOX
+00436e60	string	12	PROGRESSBAR
+00436e70	string	18	MSCTLS_PROGRESS32
+00436e88	unicode	24	PROGRESSBAR
+00436ea0	unicode	36	MSCTLS_PROGRESS32
+00436ec8	string	18	msctls_progress32
+00436ee0	unicode	14	HEADER
+00436ef0	unicode	24	SYSHEADER32
+00436f08	string	12	SysHeader32
+00436f18	unicode	18	TREEVIEW
+00436f30	unicode	28	SYSTREEVIEW32
+00436f50	string	14	SysTreeView32
+00436f60	unicode	18	LISTVIEW
+00436f78	unicode	28	SYSLISTVIEW32
+00436f98	string	14	SysListView32
+00436fa8	string	8	TOOLBAR
+00436fb0	string	16	TOOLBARWINDOW32
+00436fc0	unicode	16	TOOLBAR
+00436fd0	unicode	32	TOOLBARWINDOW32
+00436ff0	string	16	ToolbarWindow32
+00437000	unicode	12	REBAR
+00437010	unicode	28	REBARWINDOW32
+00437030	string	14	ReBarWindow32
+00437040	string	15	DATETIMEPICKER
+00437050	string	18	SYSDATETIMEPICK32
+00437068	unicode	30	DATETIMEPICKER
+00437088	unicode	36	SYSDATETIMEPICK32
+004370b0	string	18	SysDateTimePick32
+004370c8	unicode	28	MONTHCALENDAR
+004370e8	unicode	18	MONTHCAL
+00437100	unicode	28	SYSMONTHCAL32
+00437120	string	14	SysMonthCal32
+00437130	unicode	20	IPADDRESS
+00437148	unicode	30	SYSIPADDRESS32
+00437168	string	15	SysIPAddress32
+00437178	unicode	14	HOTKEY
+00437188	unicode	32	MSCTLS_HOTKEY32
+004371a8	string	16	msctls_hotkey32
+004371b8	unicode	16	ANIMATE
+004371c8	unicode	20	ANIMATION
+004371e0	unicode	26	SYSANIMATE32
+00437200	string	13	SysAnimate32
+00437210	unicode	16	SYSLINK
+00437220	unicode	12	PAGER
+00437230	unicode	18	SYSPAGER
+00437248	string	9	SysPager
+00437260	unicode	22	TABCONTROL
+00437278	unicode	32	SYSTABCONTROL32
+00437298	string	16	SysTabControl32
+004372a8	unicode	20	STATUSBAR
+004372c0	unicode	38	MSCTLS_STATUSBAR32
+004372e8	string	19	msctls_statusbar32
+00437300	unicode	16	SIZEBAR
+00437310	unicode	16	SIZEBOX
+00437320	unicode	18	SIZEGRIP
+00437338	string	10	Scrollbar
+00437348	string	11	HSCROLLBAR
+00437358	unicode	22	HSCROLLBAR
+00437370	string	11	VSCROLLBAR
+00437380	unicode	22	VSCROLLBAR
+00437398	string	9	TRACKBAR
+004373a8	string	18	MSCTLS_TRACKBAR32
+004373c0	unicode	18	TRACKBAR
+004373d8	unicode	36	MSCTLS_TRACKBAR32
+00437400	unicode	14	SLIDER
+00437410	string	18	msctls_trackbar32
+00437428	string	7	UPDOWN
+00437430	string	16	MSCTLS_UPDOWN32
+00437440	unicode	14	UPDOWN
+00437450	unicode	32	MSCTLS_UPDOWN32
+00437470	string	16	msctls_updown32
+00437480	string	9	RICHEDIT
+00437490	string	12	RichEdit50W
+004374a0	unicode	18	RICHEDIT
+004374b8	unicode	24	RichEdit50W
+004374d0	unicode	22	OLDWNDPROC
+004374e8	string	8	Label
+004374f8	string	8	&Cancel
+00437520	string	12	GDIPLUS.DLL
+00437530	string	8	Unknown
+00437540	string	16	Generic error
+00437550	string	20	Invalid parameter
+00437568	string	16	Out of memory
+00437578	string	12	Object busy
+00437588	string	20	Insufficient buffer
+004375a0	string	16	Not implemented
+004375b0	string	16	Win 32 error
+004375c0	string	12	Wrong state
+004375d0	string	8	Aborted
+004375d8	string	16	File not found
+004375e8	string	16	Value overflow
+004375f8	string	16	Access denied
+00437608	string	24	Unknown image format
+00437620	string	24	Font family not found
+00437638	string	24	Font style not found
+00437650	string	20	Not TrueType font
+00437668	string	28	Unsupported GdiPlus version
+00437688	string	24	GdiPlus not initialized
+004376a0	string	20	Property not found
+004376b8	string	24	Property not supported
+004376d0	string	12	image/bmp
+004376e0	unicode	20	image/bmp
+004376f8	unicode	24	image/jpeg
+00437710	unicode	20	image/png
+00437728	unicode	20	image/gif
+00437740	unicode	24	image/tiff
+00437760	string	40	GDI+ initialization failed - Error: 
+00437788	unicode	12	Error
+00437798	string	16	Microsoft YaHei
+004377b8	string	16	AAAAA_APPICON
+004377e0	unicode	32	Microsoft YaHei
+00437810	unicode	12	Right
+00437828	unicode	16	Bottom
+00437838	unicode	16	TopMost
+00437848	unicode	12	flags
+00437868	string	12	RICHEDIT50W
+00437878	string	8	ListBox
+00437880	string	9	ComboBox
+00437a80	string	7	SimSun
+00437a88	unicode	36	tooltips_class32
+00437ab0	string	15	bt656 mwindows
+00437ac0	string	30	CVBS Scrambling Assistant 1.0
+00437ae0	string	6	bt656
+00437ae8	unicode	28	AAAAA_APPICON
+00437b08	string	9	(0~7679)
+00437b18	string	9	Lb_range
+00437b28	string	20	Microsoft YaHei,9,0
+00437b48	string	9	Opt_ntsc
+00437b60	string	8	Opt_Pal
+00437b68	string	17	Cvbs_in_standard
+00437b80	string	13	Frm_ntsc_pal
+00437b90	string	7	Module
+00437b98	string	8	F_tx_rx
+00437ba0	string	13	Descrambling
+00437bb0	string	17	Opt_Descrambling
+00437bc8	string	18	Microsoft YaHei,9
+00437be0	string	11	Scrambling
+00437bf0	string	15	Opt_Scrambling
+00437c00	string	6	Write
+00437c08	string	10	cmd_write
+00437c20	string	9	cmd_read
+00437c30	string	12	cuart_color
+00437c48	string	9	cmd_open
+00437c58	string	10	cbox_port
+00437cb0	string	6	COM10
+00437cb8	string	6	COM11
+00437cc0	string	6	COM12
+00437cc8	string	6	COM13
+00437cd0	string	6	COM14
+00437cd8	string	6	COM15
+00437ce0	string	6	COM16
+00437ce8	string	6	COM17
+00437cf0	string	6	COM18
+00437cf8	string	6	COM19
+00437d00	string	6	COM20
+00437d08	string	6	COM21
+00437d10	string	6	COM22
+00437d18	string	6	COM23
+00437d20	string	6	COM24
+00437d28	string	6	COM25
+00437d30	string	6	COM26
+00437d38	string	6	COM27
+00437d40	string	6	COM28
+00437d48	string	6	COM29
+00437d50	string	6	COM30
+00437d58	string	6	COM31
+00437d60	string	6	COM32
+00437d68	string	6	COM33
+00437d70	string	6	COM34
+00437d78	string	6	COM35
+00437d80	string	6	COM36
+00437d88	string	6	COM37
+00437d90	string	6	COM38
+00437d98	string	6	COM39
+00437da0	string	6	COM40
+00437da8	string	6	Port:
+00437db0	string	6	Lport
+00437dc0	string	11	com_select
+00437dd0	string	6	Seed:
+00437dd8	string	10	Lb_random
+00437df8	string	20	Hi,Welcome To You !
+00437e10	string	8	Lp_info
+00437e18	string	19	@Microsoft YaHei,9
+00437e48	string	8	\\.\COM
+00437e50	string	6	Close
+00437e58	string	9	Open Com
+00437e68	string	8	 Error!
+00437e70	string	13	Write Error!
+00437e80	string	19	Write Successfull!
+00437e98	string	12	Read Error!
+00437ea8	string	18	Read Successfull!
+00438260	string	6	%s@%d
+00438660	string	14	Unknown error
+00438670	string	31	Argument domain error (DOMAIN)
+00438690	string	32	Overflow range error (OVERFLOW)
+004386b0	string	37	Partial loss of significance (PLOSS)
+004386d8	string	35	Total loss of significance (TLOSS)
+00438700	string	54	The result is too small to be represented (UNDERFLOW)
+00438736	string	28	Argument singularity (SIGN)
+00438758	string	43	_matherr(): %s in %s(%g, %g)  (retval=%g)\n
+004387a0	string	28	Mingw-w64 runtime failure:\n
+004387c0	string	32	Address %p has no image-section
+004387e0	string	49	  VirtualQuery failed for %d bytes at address %p
+00438818	string	39	  VirtualProtect failed with code 0x%x
+00438840	string	50	  Unknown pseudo relocation protocol version %d.\n
+00438878	string	42	  Unknown pseudo relocation bit size %d.\n
+004388d8	string	7	.pdata
+00438943	string	6	inity
+00438ac2	string	9	23456789
+00438e70	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00438ec0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00438f10	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00438f60	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00438fb0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439000	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439050	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004390a0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004390f0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439140	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439190	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004391e0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439230	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439280	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004392d0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439320	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439370	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004393c0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439410	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439460	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004394b0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439500	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439550	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004395a0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004395f0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439640	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439690	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004396e0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439730	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439780	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004397d0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439820	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439870	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004398c0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439910	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439960	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+004399b0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439a00	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439a50	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439aa0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439af0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439b40	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439b90	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439be0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439c30	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439c80	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439cd0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439d20	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439d70	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439dc0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439e10	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439e60	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439eb0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439f00	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439f50	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439fa0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+00439ff0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a040	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a090	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a0e0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a130	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a180	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a1d0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a220	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a270	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a2c0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a310	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a360	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a3b0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a400	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a450	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a4a0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a4f0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a540	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a590	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a5e0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a630	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a680	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a6d0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a720	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a770	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a7c0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a810	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a860	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a8b0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a900	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a950	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a9a0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043a9f0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043aa40	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043aa90	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043aae0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ab30	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ab80	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043abd0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ac20	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ac70	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043acc0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ad10	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ad60	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043adb0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ae00	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043ae50	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043aea0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043aef0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043af40	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043af90	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043afe0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b030	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b080	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b0d0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b120	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b170	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b1c0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b210	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b260	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b2b0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b300	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b350	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b3a0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b3f0	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b440	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0043b490	string	68	GCC: (MinGW-W64 x86_64-posix-sjlj, built by Brecht Sanders) 9.3.0
+0044c4e2	TerminatedCString	21	InitCommonControlsEx
+0044c4fa	TerminatedCString	18	SetWindowSubclass
+0044c50e	TerminatedCString	7	BitBlt
+0044c518	TerminatedCString	23	CreateCompatibleBitmap
+0044c532	TerminatedCString	19	CreateCompatibleDC
+0044c548	TerminatedCString	10	CreateDCW
+0044c554	TerminatedCString	17	CreateDIBSection
+0044c568	TerminatedCString	20	CreateFontIndirectW
+0044c57e	TerminatedCString	10	CreatePen
+0044c58a	TerminatedCString	17	CreateSolidBrush
+0044c59e	TerminatedCString	9	DeleteDC
+0044c5aa	TerminatedCString	13	DeleteObject
+0044c5ba	TerminatedCString	8	Ellipse
+0044c5c4	TerminatedCString	14	GetDeviceCaps
+0044c5d4	TerminatedCString	11	GetObjectW
+0044c5e2	TerminatedCString	15	GetStockObject
+0044c5f4	TerminatedCString	22	GetTextExtentPoint32A
+0044c60c	TerminatedCString	7	LineTo
+0044c616	TerminatedCString	9	MoveToEx
+0044c622	TerminatedCString	10	Rectangle
+0044c62e	TerminatedCString	10	RoundRect
+0044c63a	TerminatedCString	13	SelectObject
+0044c64a	TerminatedCString	11	SetBkColor
+0044c658	TerminatedCString	10	SetBkMode
+0044c664	TerminatedCString	13	SetTextColor
+0044c674	TerminatedCString	9	TextOutW
+0044c680	TerminatedCString	15	GdipAddPathArc
+0044c692	TerminatedCString	16	GdipAddPathLine
+0044c6a4	TerminatedCString	18	GdipAddPathString
+0044c6b8	TerminatedCString	19	GdipBitmapGetPixel
+0044c6ce	TerminatedCString	19	GdipBitmapSetPixel
+0044c6e4	TerminatedCString	20	GdipClosePathFigure
+0044c6fa	TerminatedCString	28	GdipCreateBitmapFromHBITMAP
+0044c718	TerminatedCString	27	GdipCreateBitmapFromStream
+0044c736	TerminatedCString	29	GdipCreateFontFamilyFromName
+0044c756	TerminatedCString	18	GdipCreateFromHDC
+0044c76a	TerminatedCString	28	GdipCreateHBITMAPFromBitmap
+0044c788	TerminatedCString	26	GdipCreateHICONFromBitmap
+0044c7a4	TerminatedCString	20	GdipCreateLineBrush
+0044c7ba	TerminatedCString	15	GdipCreatePath
+0044c7cc	TerminatedCString	15	GdipCreatePen1
+0044c7de	TerminatedCString	20	GdipCreateSolidFill
+0044c7f4	TerminatedCString	16	GdipDeleteBrush
+0044c806	TerminatedCString	24	GdipDeleteCustomLineCap
+0044c820	TerminatedCString	21	GdipDeleteFontFamily
+0044c838	TerminatedCString	19	GdipDeleteGraphics
+0044c84e	TerminatedCString	15	GdipDeletePath
+0044c860	TerminatedCString	14	GdipDeletePen
+0044c870	TerminatedCString	17	GdipDisposeImage
+0044c884	TerminatedCString	16	GdipDrawEllipse
+0044c896	TerminatedCString	18	GdipDrawImageRect
+0044c8aa	TerminatedCString	13	GdipDrawPath
+0044c8ba	TerminatedCString	16	GdipDrawPolygon
+0044c8cc	TerminatedCString	18	GdipDrawRectangle
+0044c8e0	TerminatedCString	16	GdipFillEllipse
+0044c8f2	TerminatedCString	13	GdipFillPath
+0044c902	TerminatedCString	16	GdipFillPolygon
+0044c914	TerminatedCString	18	GdipFillRectangle
+0044c928	TerminatedCString	21	GdipGetImageEncoders
+0044c940	TerminatedCString	25	GdipGetImageEncodersSize
+0044c95c	TerminatedCString	19	GdipGetImageHeight
+0044c972	TerminatedCString	18	GdipGetImageWidth
+0044c986	TerminatedCString	22	GdipGetMatrixElements
+0044c99e	TerminatedCString	30	GdipGetPathGradientPointCount
+0044c9be	TerminatedCString	19	GdipGetPenFillType
+0044c9d4	TerminatedCString	20	GdipSaveImageToFile
+0044c9ea	TerminatedCString	33	GdipSetImageAttributesRemapTable
+0044ca0e	TerminatedCString	21	GdipSetSmoothingMode
+0044ca26	TerminatedCString	23	GdipWindingModeOutline
+0044ca40	TerminatedCString	16	GdiplusShutdown
+0044ca52	TerminatedCString	15	GdiplusStartup
+0044ca64	TerminatedCString	12	CloseHandle
+0044ca72	TerminatedCString	15	CompareStringW
+0044ca84	TerminatedCString	12	CreateFileW
+0044ca92	TerminatedCString	22	DeleteCriticalSection
+0044caaa	TerminatedCString	21	EnterCriticalSection
+0044cac2	TerminatedCString	10	FindClose
+0044cace	TerminatedCString	15	FindFirstFileW
+0044cae0	TerminatedCString	14	FindResourceW
+0044caf0	TerminatedCString	12	FreeLibrary
+0044cafe	TerminatedCString	13	GetCommState
+0044cb0e	TerminatedCString	15	GetConsoleMode
+0044cb20	TerminatedCString	27	GetConsoleScreenBufferInfo
+0044cb3e	TerminatedCString	21	GetCurrentDirectoryW
+0044cb56	TerminatedCString	18	GetCurrentProcess
+0044cb6a	TerminatedCString	20	GetCurrentProcessId
+0044cb80	TerminatedCString	19	GetCurrentThreadId
+0044cb96	TerminatedCString	19	GetFileAttributesW
+0044cbac	TerminatedCString	12	GetFileSize
+0044cbba	TerminatedCString	28	GetLargestConsoleWindowSize
+0044cbd8	TerminatedCString	13	GetLastError
+0044cbe8	TerminatedCString	19	GetModuleFileNameW
+0044cbfe	TerminatedCString	17	GetModuleHandleA
+0044cc12	TerminatedCString	17	GetModuleHandleW
+0044cc26	TerminatedCString	25	GetPrivateProfileStringW
+0044cc42	TerminatedCString	15	GetProcAddress
+0044cc54	TerminatedCString	15	GetProcessHeap
+0044cc66	TerminatedCString	16	GetStartupInfoA
+0044cc78	TerminatedCString	13	GetStdHandle
+0044cc88	TerminatedCString	24	GetSystemTimeAsFileTime
+0044cca2	TerminatedCString	13	GetTickCount
+0044ccb2	TerminatedCString	12	GlobalAlloc
+0044ccc0	TerminatedCString	11	GlobalFree
+0044ccce	TerminatedCString	11	GlobalLock
+0044ccdc	TerminatedCString	13	GlobalUnlock
+0044ccec	TerminatedCString	10	HeapAlloc
+0044ccf8	TerminatedCString	9	HeapFree
+0044cd04	TerminatedCString	26	InitializeCriticalSection
+0044cd20	TerminatedCString	21	LeaveCriticalSection
+0044cd38	TerminatedCString	13	LoadLibraryA
+0044cd48	TerminatedCString	13	LoadLibraryW
+0044cd58	TerminatedCString	13	LoadResource
+0044cd68	TerminatedCString	13	LockResource
+0044cd78	TerminatedCString	10	MoveFileW
+0044cd84	TerminatedCString	7	MulDiv
+0044cd8e	TerminatedCString	20	MultiByteToWideChar
+0044cda4	TerminatedCString	18	PeekConsoleInputA
+0044cdb8	TerminatedCString	10	PurgeComm
+0044cdc4	TerminatedCString	24	QueryPerformanceCounter
+0044cdde	TerminatedCString	18	ReadConsoleInputA
+0044cdf2	TerminatedCString	9	ReadFile
+0044cdfe	TerminatedCString	20	RtlAddFunctionTable
+0044ce14	TerminatedCString	18	RtlCaptureContext
+0044ce28	TerminatedCString	23	RtlLookupFunctionEntry
+0044ce42	TerminatedCString	17	RtlVirtualUnwind
+0044ce56	TerminatedCString	12	SetCommMask
+0044ce64	TerminatedCString	13	SetCommState
+0044ce74	TerminatedCString	16	SetCommTimeouts
+0044ce86	TerminatedCString	22	SetConsoleCtrlHandler
+0044ce9e	TerminatedCString	15	SetConsoleMode
+0044ceb0	TerminatedCString	21	SetConsoleWindowInfo
+0044cec8	TerminatedCString	28	SetUnhandledExceptionFilter
+0044cee6	TerminatedCString	10	SetupComm
+0044cef2	TerminatedCString	15	SizeofResource
+0044cf04	TerminatedCString	6	Sleep
+0044cf0c	TerminatedCString	17	TerminateProcess
+0044cf20	TerminatedCString	12	TlsGetValue
+0044cf2e	TerminatedCString	25	UnhandledExceptionFilter
+0044cf4a	TerminatedCString	15	VirtualProtect
+0044cf5c	TerminatedCString	13	VirtualQuery
+0044cf6c	TerminatedCString	20	WideCharToMultiByte
+0044cf82	TerminatedCString	19	WriteConsoleInputA
+0044cf98	TerminatedCString	10	WriteFile
+0044cfa4	TerminatedCString	27	WritePrivateProfileStringW
+0044cfc2	TerminatedCString	21	__C_specific_handler
+0044cfda	TerminatedCString	14	__getmainargs
+0044cfea	TerminatedCString	10	__initenv
+0044cff6	TerminatedCString	11	__iob_func
+0044d004	TerminatedCString	13	__lconv_init
+0044d014	TerminatedCString	15	__set_app_type
+0044d026	TerminatedCString	17	__setusermatherr
+0044d03a	TerminatedCString	8	_acmdln
+0044d044	TerminatedCString	11	_amsg_exit
+0044d052	TerminatedCString	7	_cexit
+0044d05c	TerminatedCString	11	_controlfp
+0044d06a	TerminatedCString	7	_errno
+0044d074	TerminatedCString	7	_fmode
+0044d07e	TerminatedCString	9	_fpreset
+0044d08a	TerminatedCString	8	_i64toa
+0044d094	TerminatedCString	8	_i64tow
+0044d09e	TerminatedCString	10	_initterm
+0044d0aa	TerminatedCString	6	_itoa
+0044d0b2	TerminatedCString	6	_itow
+0044d0ba	TerminatedCString	8	_onexit
+0044d0c4	TerminatedCString	10	_snprintf
+0044d0d0	TerminatedCString	9	_ui64toa
+0044d0dc	TerminatedCString	9	_ui64tow
+0044d0e8	TerminatedCString	7	_ultoa
+0044d0f2	TerminatedCString	7	_ultow
+0044d0fc	TerminatedCString	6	abort
+0044d104	TerminatedCString	7	calloc
+0044d10e	TerminatedCString	5	exit
+0044d116	TerminatedCString	6	floor
+0044d11e	TerminatedCString	8	fprintf
+0044d128	TerminatedCString	6	fputs
+0044d130	TerminatedCString	5	free
+0044d138	TerminatedCString	7	fwrite
+0044d142	TerminatedCString	8	islower
+0044d14c	TerminatedCString	8	isupper
+0044d156	TerminatedCString	9	iswctype
+0044d162	TerminatedCString	11	localeconv
+0044d170	TerminatedCString	7	malloc
+0044d17a	TerminatedCString	9	mbstowcs
+0044d186	TerminatedCString	7	memchr
+0044d190	TerminatedCString	7	memcmp
+0044d19a	TerminatedCString	7	memcpy
+0044d1a4	TerminatedCString	7	memset
+0044d1ae	TerminatedCString	6	qsort
+0044d1b6	TerminatedCString	8	realloc
+0044d1c0	TerminatedCString	10	setlocale
+0044d1cc	TerminatedCString	7	signal
+0044d1d6	TerminatedCString	7	strchr
+0044d1e0	TerminatedCString	7	strlen
+0044d1ea	TerminatedCString	8	strncmp
+0044d1f4	TerminatedCString	8	strtoul
+0044d1fe	TerminatedCString	8	tolower
+0044d208	TerminatedCString	8	toupper
+0044d212	TerminatedCString	9	towupper
+0044d21e	TerminatedCString	9	vfprintf
+0044d22a	TerminatedCString	7	wcscmp
+0044d234	TerminatedCString	8	wcscspn
+0044d23e	TerminatedCString	7	wcslen
+0044d248	TerminatedCString	8	wcsncmp
+0044d252	TerminatedCString	7	wcsstr
+0044d25c	TerminatedCString	7	wcstod
+0044d266	TerminatedCString	9	wcstombs
+0044d272	TerminatedCString	22	CreateStreamOnHGlobal
+0044d28a	TerminatedCString	15	SysAllocString
+0044d29c	TerminatedCString	18	SysAllocStringLen
+0044d2b0	TerminatedCString	14	SysFreeString
+0044d2c0	TerminatedCString	13	SysStringLen
+0044d2d0	TerminatedCString	21	SHGetPathFromIDListW
+0044d2e8	TerminatedCString	21	PathRemoveBackslashW
+0044d300	TerminatedCString	10	StrToIntW
+0044d30c	TerminatedCString	19	AdjustWindowRectEx
+0044d322	TerminatedCString	20	BeginDeferWindowPos
+0044d338	TerminatedCString	11	BeginPaint
+0044d346	TerminatedCString	16	CallWindowProcW
+0044d358	TerminatedCString	19	CreateIconIndirect
+0044d36e	TerminatedCString	16	CreateWindowExW
+0044d380	TerminatedCString	15	DefWindowProcW
+0044d392	TerminatedCString	15	DeferWindowPos
+0044d3a4	TerminatedCString	24	DestroyAcceleratorTable
+0044d3be	TerminatedCString	14	DestroyCursor
+0044d3ce	TerminatedCString	12	DestroyIcon
+0044d3dc	TerminatedCString	14	DestroyWindow
+0044d3ec	TerminatedCString	17	DispatchMessageW
+0044d400	TerminatedCString	11	DrawIconEx
+0044d40e	TerminatedCString	10	DrawTextW
+0044d41a	TerminatedCString	13	EnableWindow
+0044d42a	TerminatedCString	18	EndDeferWindowPos
+0044d43e	TerminatedCString	9	EndPaint
+0044d44a	TerminatedCString	18	EnumThreadWindows
+0044d45e	TerminatedCString	9	FillRect
+0044d46a	TerminatedCString	14	FindWindowExW
+0044d47a	TerminatedCString	12	FindWindowW
+0044d488	TerminatedCString	14	FlashWindowEx
+0044d498	TerminatedCString	12	GetAncestor
+0044d4a6	TerminatedCString	17	GetClassLongPtrW
+0044d4ba	TerminatedCString	14	GetClassNameA
+0044d4ca	TerminatedCString	14	GetClassNameW
+0044d4da	TerminatedCString	14	GetClientRect
+0044d4ea	TerminatedCString	6	GetDC
+0044d4f2	TerminatedCString	17	GetDesktopWindow
+0044d506	TerminatedCString	13	GetDlgCtrlID
+0044d516	TerminatedCString	11	GetDlgItem
+0044d524	TerminatedCString	12	GetIconInfo
+0044d532	TerminatedCString	8	GetMenu
+0044d53c	TerminatedCString	12	GetMessageW
+0044d54a	TerminatedCString	10	GetParent
+0044d556	TerminatedCString	9	GetPropW
+0044d562	TerminatedCString	14	GetScrollInfo
+0044d572	TerminatedCString	12	GetSysColor
+0044d580	TerminatedCString	17	GetSystemMetrics
+0044d594	TerminatedCString	10	GetWindow
+0044d5a0	TerminatedCString	12	GetWindowDC
+0044d5ae	TerminatedCString	18	GetWindowLongPtrW
+0044d5c2	TerminatedCString	19	GetWindowPlacement
+0044d5d8	TerminatedCString	14	GetWindowRect
+0044d5e8	TerminatedCString	21	GetWindowTextLengthW
+0044d600	TerminatedCString	25	GetWindowThreadProcessId
+0044d61c	TerminatedCString	14	IntersectRect
+0044d62c	TerminatedCString	15	InvalidateRect
+0044d63e	TerminatedCString	17	IsDialogMessageW
+0044d652	TerminatedCString	9	IsIconic
+0044d65e	TerminatedCString	9	IsWindow
+0044d66a	TerminatedCString	16	IsWindowEnabled
+0044d67c	TerminatedCString	16	IsWindowVisible
+0044d68e	TerminatedCString	9	IsZoomed
+0044d69a	TerminatedCString	12	LoadCursorW
+0044d6a8	TerminatedCString	11	LoadImageA
+0044d6b6	TerminatedCString	11	LoadImageW
+0044d6c4	TerminatedCString	15	MapVirtualKeyA
+0044d6d6	TerminatedCString	16	MapWindowPoints
+0044d6e8	TerminatedCString	12	MessageBoxW
+0044d6f6	TerminatedCString	9	OpenIcon
+0044d702	TerminatedCString	13	PostMessageW
+0044d712	TerminatedCString	16	PostQuitMessage
+0044d724	TerminatedCString	17	RegisterClassExW
+0044d738	TerminatedCString	15	ReleaseCapture
+0044d74a	TerminatedCString	10	ReleaseDC
+0044d756	TerminatedCString	12	RemovePropW
+0044d764	TerminatedCString	15	ScreenToClient
+0044d776	TerminatedCString	13	SendMessageA
+0044d786	TerminatedCString	13	SendMessageW
+0044d796	TerminatedCString	17	SetClassLongPtrW
+0044d7aa	TerminatedCString	10	SetCursor
+0044d7b6	TerminatedCString	9	SetFocus
+0044d7c2	TerminatedCString	20	SetForegroundWindow
+0044d7d8	TerminatedCString	27	SetLayeredWindowAttributes
+0044d7f6	TerminatedCString	10	SetParent
+0044d802	TerminatedCString	9	SetPropW
+0044d80e	TerminatedCString	8	SetRect
+0044d818	TerminatedCString	14	SetScrollInfo
+0044d828	TerminatedCString	18	SetWindowLongPtrW
+0044d83c	TerminatedCString	19	SetWindowPlacement
+0044d852	TerminatedCString	13	SetWindowPos
+0044d862	TerminatedCString	11	ShowWindow
+0044d870	TerminatedCString	22	SystemParametersInfoW
+0044d888	TerminatedCString	22	TranslateAcceleratorW
+0044d8a0	TerminatedCString	21	TranslateMDISysAccel
+0044d8b8	TerminatedCString	17	TranslateMessage
+0044d8cc	TerminatedCString	17	UnregisterClassW
+0044d8e0	TerminatedCString	13	UpdateWindow
+0044d8f0	TerminatedCString	11	VkKeyScanA
+0044d8fe	TerminatedCString	24	GetFileVersionInfoSizeW
+0044d918	TerminatedCString	20	GetFileVersionInfoW
+0044d92e	TerminatedCString	15	VerQueryValueW
+0044d948	TerminatedCString	13	COMCTL32.dll
+0044d9b8	TerminatedCString	10	GDI32.dll
+0044da78	TerminatedCString	12	gdiplus.dll
+0044dbac	TerminatedCString	13	KERNEL32.dll
+0044dcb0	TerminatedCString	11	msvcrt.dll
+0044dcc0	TerminatedCString	10	ole32.dll
+0044dcdc	TerminatedCString	13	OLEAUT32.dll
+0044dcf0	TerminatedCString	12	SHELL32.dll
+0044dd04	TerminatedCString	12	SHLWAPI.dll
+0044de7c	TerminatedCString	11	USER32.dll
+0044de94	TerminatedCString	12	VERSION.dll
+004543ea	TerminatedUnicode	30	StringFileInfo
+0045440e	TerminatedUnicode	18	040904E4
+00454426	TerminatedUnicode	24	FileVersion
+00454440	TerminatedUnicode	20	1.0.0.167
+0045445a	TerminatedUnicode	30	ProductVersion
+00454478	TerminatedUnicode	20	1.0.0.167
+00454492	TerminatedUnicode	26	InternalName
+004544ac	TerminatedUnicode	48	cvbs_scramble_assistant
+004544e2	TerminatedUnicode	34	OriginalFilename
+00454504	TerminatedUnicode	56	cvbs_scramble_assistant.exe
+00454542	TerminatedUnicode	24	VarFileInfo
+00454562	TerminatedUnicode	24	Translation
+00454580	TerminatedCString	2283	���\r\n<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\r\n   <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">\r\n      <assemblyIdentity version="1.0.0.167"\r\n         processorArchitecture="*"\r\n         name="cvbs_scramble_assistant"\r\n         type="win32"/>\r\n      <description></description>\r\n\r\n      <dependency>\r\n         <dependentAssembly>\r\n            <assemblyIdentity\r\n               type="win32"\r\n               name="Microsoft.Windows.Common-Controls"\r\n               version="6.0.0.0"\r\n               processorArchitecture="*"\r\n               publicKeyToken="6595b64144ccf1df"\r\n               language="*" />\r\n         </dependentAssembly>\r\n      </dependency>\r\n\r\n      <!-- Compatibility section -->\r\n      <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\r\n         <application>\r\n            <!--The ID below indicates application support for Windows Vista -->\r\n            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/>\r\n            <!--The ID below indicates application support for Windows 7 -->\r\n            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\r\n            <!--This Id value indicates the application supports Windows 8 functionality-->\r\n            <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\r\n            <!--This Id value indicates the application supports Windows 8.1 functionality-->\r\n            <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\r\n         </application>\r\n       </compatibility>\r\n\r\n      <!-- Trustinfo section -->\r\n      <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">\r\n         <security>\r\n            <requestedPrivileges>\r\n               <requestedExecutionLevel\r\n                  level="asInvoker"\r\n                  uiAccess="false"/>\r\n               </requestedPrivileges>\r\n         </security>\r\n      </trustInfo>\r\n\r\n    <asmv3:application>\r\n         <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">\r\n            <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2</dpiAwareness>\r\n            <dpiAware>true</dpiAware>\r\n         </asmv3:windowsSettings>\r\n    </asmv3:application>\r\n    \r\n</assembly>\r\n\r\n

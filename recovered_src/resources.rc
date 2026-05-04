@@ -1,0 +1,42 @@
+// Resources matched to the original PE.
+// Build with windres (mingw):  windres resources.rc -O coff -o resources.o
+// then link the resulting resources.o into the EXE.
+
+#include <winuser.h>
+#include <winver.h>
+
+// ---- Application icon ------------------------------------------------------
+// The original ID is the *string* "AAAAA_APPICON" (not numeric — note the
+// five leading 'A's, used by some templates to force the icon to sort first
+// in Explorer's icon view).
+AAAAA_APPICON  ICON  "app.ico"
+
+// ---- Application manifest --------------------------------------------------
+// Pulls in COMCTL32 v6 + per-monitor DPI awareness, exactly as in the original.
+1 24 "app.manifest"
+
+// ---- Version info ----------------------------------------------------------
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION    1,0,0,167
+PRODUCTVERSION 1,0,0,167
+FILEFLAGSMASK  0x3FL
+FILEFLAGS      0x0L
+FILEOS         VOS_UNKNOWN
+FILETYPE       VFT_APP
+FILESUBTYPE    0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"     // 0x0409 = en-US, 0x04E4 = Windows-1252
+        BEGIN
+            VALUE "FileVersion",      "1.0.0.167"
+            VALUE "ProductVersion",   "1.0.0.167"
+            VALUE "InternalName",     "cvbs_scramble_assistant"
+            VALUE "OriginalFilename", "cvbs_scramble_assistant.exe"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
