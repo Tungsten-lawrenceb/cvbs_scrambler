@@ -58,7 +58,7 @@ void Serial::close() {
 }
 
 SerialResult Serial::write_reg(uint8_t addr, uint8_t val, DWORD delay_ms) {
-    PurgeComm(h, PURGE_TXCLEAR | PURGE_RXABORT);  // 0xC
+    PurgeComm(h, PURGE_RXCLEAR | PURGE_TXCLEAR);  // 0xC = 0x8 | 0x4 — clear both buffers
 
     uint8_t chk = uint8_t(addr + val);
     std::string pkt = "{00" + byte_hex(addr) + byte_hex(val) + byte_hex(chk) + "}";
@@ -87,7 +87,7 @@ SerialResult Serial::write_reg(uint8_t addr, uint8_t val, DWORD delay_ms) {
 }
 
 SerialResult Serial::read_reg(uint8_t addr, uint8_t* out_val) {
-    PurgeComm(h, PURGE_TXCLEAR | PURGE_RXABORT);
+    PurgeComm(h, PURGE_RXCLEAR | PURGE_TXCLEAR);  // 0xC, both buffers
     *out_val = 0;
 
     uint8_t cmpl = uint8_t(addr - 1);                       // device's expected complement

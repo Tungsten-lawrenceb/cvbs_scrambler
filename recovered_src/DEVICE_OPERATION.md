@@ -45,6 +45,12 @@ Mapping of regs 1 and 2 to "mode" and "standard" is **inferred from UI
 binding** (`Opt_Scrambling`/`Opt_Descrambling` and `Opt_ntsc`/`Opt_Pal`
 radio groups), not from anything the device says back.
 
+The role labels for reg 3 ("sub-band / line-group index") and reg 4
+("per-band seed / phase") are **pure speculation** — the PC binary
+contains no string, comment, or operation that names either register
+beyond the seed-split arithmetic. They are placeholder vocabulary for the
+hypothesis below, not evidence about the hardware.
+
 ## Why reg 0 is almost certainly a "commit/strobe"
 
 Three cues line up:
@@ -72,9 +78,17 @@ simplest that explains all three cues.
 The PC tool does not split seed as `(seed >> 8, seed & 0xFF)`. It does:
 
 ```c
-seed_high = round_half_to_even(seed / 256.0);
+seed_high = round(seed / 256.0);     // see note on rounding mode below
 seed_low  = seed & 0xFF;
 ```
+
+The decomp shows **two rounding paths** gated on a feature-detect bit
+(`_DAT_0043e4a0 & 0x80000`). Set: `roundsd imm8=4` — uses the current
+MXCSR rounding mode, default round-to-nearest-even. Clear: C library
+`round()` — round-half-away-from-zero. The paths agree on every input
+*except* exact half-integers, where they differ by 1 (e.g. `seed=128`
+gives 0 under RNE, 1 under round-half-away). Either way the encoding is
+**not** an arithmetic right-shift.
 
 For odd quotients `seed_high` is *one above the floor*. Concretely, with
 the GUI's advertised range `0..7679`:
@@ -91,13 +105,15 @@ firmware could still reassemble them as a 13-bit value internally,
 though doing so would make the rounding a bug rather than a design
 choice).
 
-A plausible reading: the hardware has 30 (or 31) **scrambling sub-bands**
-or **line-group buckets**, indexed by reg 3, each with its own seed
-selected by reg 4. On this reading the PC's GUI presents the 2D
-parameter space to the user as a single integer for ergonomics, then
-de-projects on the way out. Whether the device uses a fixed lookup
-table indexed by reg 3, instantiates 30 LFSRs in parallel, or does
-something else entirely, cannot be told from the PC code.
+One plausible reading — and only one of several — is that the hardware
+has 30 (or 31) **scrambling sub-bands** or **line-group buckets**,
+indexed by reg 3, each with its own seed selected by reg 4. The "30 or
+31 sub-bands" number is back-derived from the rounded value range, not
+from anything in the PC binary or device. Equally consistent readings:
+the device uses both bytes as a flat 13-bit-ish index into an internal
+table; the device ignores reg 3 entirely; reg 4 is the seed and reg 3 is
+something else (rate, chroma mode, …). None of these can be
+distinguished without firmware in hand.
 
 The number `7680` itself is unremarkable in CVBS terms (it isn't a line
 count, sample count, or burst frequency). The most economical
@@ -128,19 +144,26 @@ That implies:
 
 ## Why the device is probably an FPGA or a small soft-config ASIC
 
-Indirect evidence from the PC side:
+Indirect, **weak** evidence from the PC side:
 
-- The 5-register surface is too small for an MCU running real firmware —
-  there'd be at least a "version" register or a "status" register if
-  the chip ran code. So this is likely a **fixed-function** part.
+- The 5-register surface is small, and the official PC tool never asks
+  for a version or status reading. If the chip ran general-purpose
+  firmware one might *expect* such a query, but firmware-running MCUs
+  can equally well expose a minimal config-only protocol — so this is
+  suggestive, not conclusive. A fixed-function part is **consistent**
+  with what we see; it is not the only fit.
 - The window class string in the PE is `bt656 mwindows`. **BT.656** is
   the ITU-R parallel digital interface for 525/60 and 625/50 component
   video. Vendors who put "BT.656" in their tool name are usually selling
   video format converters, scramblers, or capture front-ends.
-- CVBS scrambling with a parameterisable LFSR seed and a NTSC/PAL toggle
-  fits the profile of a small Verilog/VHDL block synthesised onto either
-  a low-end FPGA (Lattice MachXO, Anlogic AG10K, Gowin GW1N, Altera MAX
-  series) or a configurable ASIC.
+- CVBS scrambling with a parameterisable seed and a NTSC/PAL toggle is
+  **compatible with** — but does not require — a small Verilog/VHDL
+  block synthesised onto either a low-end FPGA (Lattice MachXO, Anlogic
+  AG10K, Gowin GW1N, Altera MAX series) or a configurable ASIC. The
+  same parameter surface could equally be served by a small MCU plus
+  an analog mixer, or by a purpose-built mixed-signal IC. The "LFSR"
+  framing in particular is not implied by anything in the PC binary —
+  the PC code does not perform, name, or reference any LFSR operation.
 
 If this is an FPGA, the configuration bitstream typically lives in a
 serial flash on the same board, loaded by the FPGA at power-on via

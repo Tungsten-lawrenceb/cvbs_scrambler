@@ -17,16 +17,18 @@ the device's register file.
 |  0  | commit / trigger    | `1` then `0` (1000 ms wait on the `1`) |
 |  1  | mode                | `0` = scramble, `1` = descramble |
 |  2  | video standard      | `0` = NTSC, `1` = PAL |
-|  3  | seed high byte      | `(seed >> 8) & 0xFF` |
+|  3  | seed high byte      | `round(seed / 256.0)` — *not* `seed >> 8` (see Caveats) |
 |  4  | seed low byte       | `seed & 0xFF` |
 
-The seed range advertised in the GUI is **0..7679**.
+The seed range advertised in the GUI label is **0..7679**, but the code
+does not enforce that range — it just calls `StrToIntW` on the edit text
+and feeds the result through the divide/round/mask path.
 
 ## Wire protocol (hand-derived from the decomp)
 
 Both directions are ASCII, fixed-length, with curly-brace delimiters.
-Defaults: 19200 / 8 / N / 1, no flow control, 256-byte buffers, custom
-1 ms read-interval timeout.
+Defaults: 19200 / 8 / N / 1, no flow control, 256-byte buffers,
+`ReadIntervalTimeout = 2 ms`, `ReadTotalTimeoutConstant = 1 ms`.
 
 ```
 PC -> dev   "{00<addr_hex2><val_hex2><chk_hex2>}"   10 B   (write)
@@ -137,7 +139,7 @@ claim, so a reviewer can re-verify without re-reading the binary.
 | Sixth write's return is ignored      | proved  | `0041a31e:73` `write_reg(0, 0, 0x28)` not added to `local_41`         |
 | reg 1 = mode (descramble vs scramble) | inferred | `0041a31e:55-58` reads `Opt_Descrambling` radio (`DAT_0043e398`) and writes that bit to reg 1 |
 | reg 2 = standard (NTSC vs PAL)       | inferred | `0041a31e:52-54` reads `Opt_Pal` radio (`DAT_0043e3d8`) and writes that bit to reg 2 |
-| reg 3, reg 4 = seed hi/lo            | inferred | `0041a31e:36-50` parses `Lb_random` edit text as int → ROUND/256 → reg 3, &0xFF → reg 4 |
+| reg 3, reg 4 = seed hi/lo            | inferred | `0041a31e:36-50` parses `Lb_random` edit text as int → ROUND/256 → reg 3, &0xFF → reg 4. The rounding has **two code paths** gated on a feature-bit at `_DAT_0043e4a0 & 0x80000`: the set path uses `roundsd imm8=4` (round-to-nearest-even, via MXCSR), the clear path uses C `ROUND()` (round-half-away-from-zero). The two agree on every input except exact half-integers. The reconstruction picks the SSE4.1 path (`std::lrint`) since modern x86 hits it; cf. `scramble.cpp` |
 | seed range 0..7679                   | inferred | GUI label `Lb_range` text `"(0~7679)"` at `.data:0x437b08`. **No range check exists in code** |
 | reg 0 = commit pulse                 | inferred | `0041a31e:71-73` writes `1` (1000 ms wait) then `0` (return ignored) — strobe shape |
 

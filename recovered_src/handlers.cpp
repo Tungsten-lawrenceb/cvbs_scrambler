@@ -10,7 +10,7 @@ extern struct AppState {
     HINSTANCE     hInstance;
     HWND          hWnd;
     Serial        com;
-    int           selectedPort;
+    int           selectedPortIndex;   // 0-based combo selection; COM<N> = index+1
     ScrambleParams cur;
 } g;
 
@@ -33,12 +33,17 @@ void on_open_close_clicked() {
         return;
     }
 
-    if (g.com.open(g.selectedPort)) {
+    // Combo selection is 0-based; the COM port is index + 1
+    // (FUN_00419b56:42-43: local_48 = (int)uVar4 + 1).
+    int comNum = g.selectedPortIndex + 1;
+    if (comNum < 1) comNum = 1;             // matches original clamp at :141-143
+
+    if (g.com.open(comNum)) {
         set_button_text(ui::ctrl::kBtnOpen, ui::msg::kClose);
         set_led(ui::kLedGreen);
     } else {
         set_status(std::string(ui::msg::kOpenCom) +
-                   "COM" + std::to_string(g.selectedPort) +
+                   "COM" + std::to_string(comNum) +
                    ui::msg::kErrorSuffix);
     }
 }
@@ -47,9 +52,10 @@ void on_write_clicked() {
     if (!g.com.is_open()) { set_status(ui::msg::kWriteErr); return; }
 
     ScrambleParams p;
+    // No range check: the original (FUN_0041a31e:36-51) calls StrToIntW and
+    // feeds the result straight into the divide/round/&0xFF path. Out-of-band
+    // values are accepted and silently wrap.
     int seed = get_seed_edit();
-    if (seed < 0) seed = 0;
-    if (seed > 7679) seed = 7679;
     p.seed         = uint16_t(seed);
     p.pal          = get_radio(ui::ctrl::kOptPal);
     p.descrambling = get_radio(ui::ctrl::kOptDescrambling);

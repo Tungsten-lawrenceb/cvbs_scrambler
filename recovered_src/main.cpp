@@ -22,7 +22,7 @@ struct AppState {
     HINSTANCE     hInstance{};
     HWND          hWnd{};
     Serial        com;
-    int           selectedPort = 1;       // index into the COM1..COM40 list
+    int           selectedPortIndex = 0;  // 0-based combo index; COM<N> = index+1
     ScrambleParams cur{ false, false, 0 };
 };
 static AppState g;
@@ -48,8 +48,10 @@ int APIENTRY wWinMain(HINSTANCE hInst, HINSTANCE, PWSTR, int nShow) {
     ULONG_PTR token{};
     Gdiplus::GdiplusStartup(&token, &si, nullptr);
 
-    // 4. Register the main window class.  The original uses the literal
-    //    string "bt656 mwindows" as both class name and dummy font tag.
+    // 4. Register the main window class.  The original embeds two
+    //    distinct strings in .data: "bt656 mwindows" (.data:0x437ab0,
+    //    15 B) used as the window-class name, and a shorter "bt656"
+    //    (.data:0x437ae0, 6 B) used elsewhere (likely a font tag).
     WNDCLASSEXW wc{};
     wc.cbSize        = sizeof wc;
     wc.style         = CS_HREDRAW | CS_VREDRAW;
@@ -61,9 +63,14 @@ int APIENTRY wWinMain(HINSTANCE hInst, HINSTANCE, PWSTR, int nShow) {
     wc.lpszClassName = ui::kAppClass;
     RegisterClassExW(&wc);
 
-    g.hWnd = CreateWindowExW(0, ui::kAppClass, ui::kAppTitle,
-                             WS_OVERLAPPEDWINDOW & ~WS_THICKFRAME & ~WS_MAXIMIZEBOX,
-                             CW_USEDEFAULT, CW_USEDEFAULT, 480, 360,
+    // Original (FUN_004120dd:339-340) creates the window with style 0x86cc0000
+    // and size 0x1cc x 0x16d (460 x 365). The style is
+    //   WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+    // i.e. a fixed-size caption window — no thick frame, no min/max boxes.
+    constexpr DWORD kAppStyle =
+        WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU;
+    g.hWnd = CreateWindowExW(0, ui::kAppClass, ui::kAppTitle, kAppStyle,
+                             CW_USEDEFAULT, CW_USEDEFAULT, 460, 365,
                              nullptr, nullptr, hInst, nullptr);
 
     ShowWindow(g.hWnd, nShow);
